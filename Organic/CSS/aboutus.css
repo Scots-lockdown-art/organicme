@@ -1,0 +1,89 @@
+#navoptions {
+    text-align:center;
+    padding:20px;
+    margin-bottom:60px;
+}
+
+#navoptions a {
+    padding-left:25px;
+    padding-right:25px;    
+    color:black;
+}
+
+h3 {
+    text-align:center;    
+    color:rgb(114, 114, 114);
+    background-color:rgb(192, 218, 199);
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+    font-weight: normal;
+}
+
+.infotext {
+    width:65%;
+    text-align:justify;    
+    margin-left:auto;
+    margin-right:auto;
+    color:rgb(27, 27, 27);
+}
+
+
+.picContain {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;  
+    margin-bottom:75px;
+    text-align:center;
+}
+
+.fourpics { 
+    height:350px;
+      width: 48%;     
+      padding-bottom:1%;   
+     
+}
+  
+     
+    
+
+#sign {
+    color:rgb(30, 97, 45);
+    
+    text-align:center;
+}
+
+
+
+#open {
+    color:rgb(28, 92, 26);
+ 
+    text-align:center;
+}
+
+#bees {
+    width:80%;
+    height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("../IMG/bees.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom:100px;
+}
+
+
+
+@media   (max-width: 1400px) { 
+
+    .fourpics {      
+          width:80%;
+          padding-bottom:1%;          
+         
+    }
+      
+
+
+
+}

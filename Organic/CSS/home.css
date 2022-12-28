@@ -1,0 +1,468 @@
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  display:block;
+  font-size: 2em;
+
+}
+
+
+#intro {
+margin-top:-60px; 
+margin-bottom:75px;  
+}
+
+#introText {
+width:45%;   
+justify-content: center; 
+background-color:rgb(168, 228, 172); 
+background-repeat: no-repeat;
+height:700px;
+background-position:center;
+background-size:cover;
+color:rgb(38, 51, 38);
+padding-left:20px;
+padding-right:20px;
+font-size:3vh;
+}
+
+#cent {
+  color:rgb(235, 235, 235);
+margin-left:auto;
+margin-right:auto;
+}
+
+#mainImage {
+background-image:url("../IMG/kelsomain.jpg") ; 
+  background-repeat: no-repeat;
+  height:700px;
+  background-position:center;
+  background-size:cover;
+Width:100%;  
+display:inline-block;  
+}
+
+
+.centerText {
+text-align: center;
+display:flex; 
+font-size:3vw;   
+text-align:"center";
+font-style:italic;   
+color:rgb(255, 255, 255);
+justify-content: center;
+margin-left:20%;
+margin-right:20%;
+margin-top:250px; 
+}
+
+#one {    
+width:50%;      
+color:rgb(158, 209, 233);
+display:flex;   
+flex-wrap:wrap;  
+justify-content: center; 
+margin-bottom:25px;   
+margin-left:auto;
+margin-right:auto;  
+margin-top:0px; 
+
+}
+
+
+
+
+.offerContainer {  
+flex: 1 1 5px;
+margin:20px;    
+padding:10px;
+text-align: center; 
+min-width:450px;   
+ margin-left:auto;
+ margin-right:auto;  
+ justify-content: space-evenly; 
+ flex-wrap:wrap;
+ display:flex;  
+ width:60%; 
+ 
+}
+
+
+.offer {
+font-size:2vh;
+display:flex;
+color:rgb(54, 54, 54);  
+justify-content: center; 
+font-weight:bold;
+line-height:1.5;
+}
+
+.imageContainer {
+border: 0px solid rgb(150, 150, 150);
+padding-bottom:20px;
+background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 79, 79), rgb(255, 253, 253), rgb(220, 233, 224), rgb(181, 214, 190));
+
+}
+
+.offerImage {
+height:250px;      
+display:flex;
+margin-left:auto;
+margin-right:auto;   
+}
+
+h3, h4 {
+font-size:3vh; 
+color:rgb(114, 114, 114);
+background-color:rgba(192, 218, 199, 0);
+width:35%;
+margin-left:auto;
+margin-right:auto;
+padding:5px;
+text-align:center;
+letter-spacing: 2px;
+}
+
+h4 {
+  width:55%;
+}
+
+h2 {
+font-size:3vh;
+color:rgba(19, 71, 17, 0.774);
+font-style:italic;
+text-align:center;
+}
+
+
+#two {
+width:100%;      
+color:rgb(158, 209, 233);  
+background-color: rgb(224, 212, 160);
+margin-bottom:100px;   
+margin-left:auto;
+margin-right:auto;
+margin-top:120px;      
+}
+
+.from {
+  font-style:italic;
+  color:grey;
+}
+
+.twoContainer { 
+display:flex;   
+justify-content: center; 
+ flex-wrap:wrap; 
+
+}
+
+.productContainer {
+height:250px;   
+text-align: center; 
+padding-bottom:125px; 
+margin-bottom:70px;
+width:75%;
+max-width:450px;
+ 
+}
+
+.pricebox {
+background-color:rgba(255, 255, 255, 0.685);
+margin-top:0;
+padding-bottom:25px;
+padding-top:25px;
+width:85%;
+margin-left:auto;
+margin-right:auto;  
+}
+
+.recProduct {
+font-size:2vh;
+display:block;
+color:rgb(61, 61, 61);    
+font-weight:normal;
+  
+}
+
+#productView {
+text-align:center;
+background-color: rgb(224, 212, 160);
+margin-top:0px;
+padding-bottom:40px;
+font-weight:bold;
+font-size:1.5vh;
+letter-spacing: 1.5px;
+
+}
+
+.recImage {
+margin-top:-70px;
+height:250px; 
+width:380px;     
+display:block;
+margin-left:auto;
+margin-right:auto; 
+margin-bottom:-18px;  
+}
+
+button {   
+  background-color: #f3ce68;     
+  color: rgb(66, 66, 66);
+  padding: 16px 40px;    
+  text-decoration: none;    
+  font-size: 1.5h; 
+  font-weight:bold;     
+  margin-left:auto;
+  margin-right:auto; 
+  border:none;  
+}
+
+button:hover {
+  background-color:#dab246;
+  cursor:pointer;
+}
+
+#productView a {
+  text-decoration:none;
+ color:rgba(30, 83, 28, 0.774);
+}
+
+#productView a:hover {
+  text-decoration:none;
+ color:rgba(106, 133, 88, 0.774);
+}
+
+#three {
+background-image: url("../IMG/cafe.jpg");
+height:700px; 
+background-repeat: no-repeat;   
+background-position:center;
+background-size:cover;
+margin-bottom:50px;
+opacity:80%;
+width:80%;
+margin-right:auto;
+margin-left:auto;
+box-shadow: 3px 3px 2px rgb(82, 82, 82);
+}
+
+#four {
+background-image: url("../IMG/gardening.jpg");
+height:700px; 
+background-repeat: no-repeat;   
+background-position:center;
+background-size:cover;
+margin-bottom:50px;
+opacity:80%;
+width:80%;
+margin-right:auto;
+margin-left:auto;
+box-shadow: 3px 3px 2px rgb(82, 82, 82);
+}
+
+.textintro {
+  margin-top:-740px; 
+  margin-bottom:0px; 
+  font-size: 5em;
+  color:rgb(197, 197, 197);
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-family: 'GlacialIndifferenceRegular';
+}
+
+.textintro5 {
+  margin-top:30px;
+  margin-bottom:25px;
+  font-size: 2em;
+  color:rgb(18, 78, 18);
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-family: 'GlacialIndifferenceRegular';
+}
+
+.textintro2 {
+  margin-top:-700px;
+  margin-bottom:15px;
+  font-size: 3em;
+  color:rgb(18, 78, 18);
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-family: 'GlacialIndifferenceRegular';
+  text-align:left;
+  margin-left:60px;
+}
+
+.textintro3 {
+  margin-top:-750px;
+  margin-bottom:120px;
+  font-size: 2em;
+  color:rgb(19, 66, 27);
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-family: 'GlacialIndifferenceRegular';
+  text-align:left;
+  padding-left:40px;
+  padding-top:110px;
+}
+
+.textintro4 {
+  margin-top:-575px;
+  margin-bottom:-17px;
+  font-size: 5em;
+  color:rgb(243, 243, 243);  
+  letter-spacing: 4px;
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight:bolder ;
+}
+.backg {
+  background-color:rgba(66, 66, 66, 0.822);
+  padding:15px;
+
+}
+
+.changeanc {
+  color:rgb(236, 236, 236);
+  background-color:rgba(66, 66, 66, 0.575);
+  padding:10px;
+  text-decoration:none;
+}
+
+
+.centerpics {		   					
+  width:100%;	
+  margin-left:auto;
+   margin-right:auto;
+  margin-top:0px;
+  margin-bottom:50px;    
+      }
+           
+
+.slidepics {
+  width:100%;
+  height:800px;
+  opacity:100%; 
+  z-index:10;
+  }
+      
+  
+   
+  .mySlides {
+  display: none;
+  text-align:center;
+ 
+  }
+               
+     
+  .dot {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  margin: 12px 12px;
+  background-color: #0c0c0cc7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top:400px;
+  text-align:center;
+  }
+  
+  .active, .dot:hover {
+  background-color: rgba(248, 248, 248, 0.74);
+  }
+  
+  
+  .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+  }
+  
+  @-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
+  
+  @keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
+
+  
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left:10px;
+  margin-right:10px;
+  color: rgb(245, 244, 244);
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(128, 128, 128, 0.637);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+@media   (max-width: 1000px) { 
+
+  
+.textintro {
+  margin-top:-740px; 
+  margin-bottom:0px; 
+  font-size: 2.5em;
+
+}
+
+.textintro5 {
+  margin-top:30px;
+  margin-bottom:25px;
+  font-size: 2.5em;
+ 
+}
+
+.textintro2 {
+  margin-top:-700px;
+  margin-bottom:15px;
+  font-size: 2.5em;
+}
+
+.textintro3 {
+  margin-top:-750px;
+  margin-bottom:120px;
+  font-size: 2.5em;
+
+}
+
+.textintro4 {
+  margin-top:-575px;
+  margin-bottom:-17px;
+  font-size: 2.5em;
+
+}
+
+
+
+}

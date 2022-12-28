@@ -1,0 +1,60 @@
+ 
+.centerpics {		   					
+    width:100%;	
+    margin-left:auto;
+     margin-right:auto;
+    margin-top:20px;
+    margin-bottom:50px;    
+        }
+             
+
+.slidepics {
+    width:100%;
+    height:500px;  
+    
+    }
+        
+    
+     
+    .mySlides {
+    display: none;
+    text-align:center;	
+    }
+                 
+       
+    .dot {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin: 12px 12px;
+    background-color: #062909;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+    background-color: rgb(147, 216, 126);
+    }
+    
+    
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+    
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+    
+     
+    
+        
