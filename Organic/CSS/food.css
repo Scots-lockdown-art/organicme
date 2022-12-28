@@ -39,7 +39,8 @@ h3 {
 }
 
 .foodImage {
-    height:auto;      
+    height:auto;
+  width:80%;
     }
 
 .foodButton {
