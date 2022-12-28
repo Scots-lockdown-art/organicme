@@ -17,7 +17,6 @@ h4 {
 
 
 
-
 .row:after {
     content: "";
     display: table;
@@ -90,51 +89,13 @@ button {
     }      
     
 
-    @media   (min-width: 1201px) 
-    {
-
-      form {   
-        background-color:rgb(195, 219, 193);    
-        height:auto;   
-        padding:20px;   
-        margin-top:0px;
-        margin-bottom:auto;      
-       
-        color:rgb(46, 45, 45);            
-           padding-top:20px; 
-          width:100%;        
-    }
-
-
-
-#signup {
-    flex:1 1 50px;    
-}
-
-
-#aboutgarden {
-    flex:2 1 50px;
-    text-align:center; 
-   padding-left:100px;    
-}
-
-#container2 {
-  text-align:center;  
-  padding-bottom:40px;  
-   
-}
-
-    }
     
 .gardpics { 
   min-width:350px;
-    width:30%;
-     
-   
+    width:30%;   
 }
 
-.boxy {
-    
+.boxy {    
     width:30%;
     padding: 20px 100px;   
     text-align:center;
@@ -144,8 +105,7 @@ button {
     
 }
 
-.boxy2 {
-    
+.boxy2 {    
     width:30%;
     padding: 20px 100px;   
     text-align:center;
@@ -163,11 +123,9 @@ button {
     padding-bottom:25px;
    
     
-
 }
 
-
-@media   (max-width: 1200px) { 
+ 
 
   #container2 {
     text-align:center;  
@@ -212,4 +170,3 @@ form {
 }
 
 
-}
