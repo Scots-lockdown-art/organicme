@@ -19,13 +19,13 @@ h3 {
     display:flex;
     justify-content: center; 
     flex-direction: column; 
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;  
     background-color:rgb(192, 218, 199);
-    max-width:500px;
+    width:80%;
     color:rgb(85, 85, 85);
-    max-height:700px;
+    height:auto;
    
 }
 
@@ -38,7 +38,7 @@ h3 {
 }
 
 .foodImage {
-    height:350px;      
+    height:auto;      
     }
 
 .foodButton {
@@ -46,7 +46,8 @@ h3 {
     
 }  
 
-button {   
+button {  
+  font-size:25px;
     background-color: #f3ce68;     
     color: rgb(66, 66, 66);
     padding: 16px 40px;    
@@ -67,7 +68,3 @@ button {
     text-decoration: line-through;
   }
 
-.imageSize {
-height:350px;
-width:500px;
-}
