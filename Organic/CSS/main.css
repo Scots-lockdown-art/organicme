@@ -25,16 +25,14 @@ body {
 
 .main-header {
     background-color: rgb(238, 226, 186);    
-    color:rgb(0, 0, 0);    
-   
+    color:rgb(0, 0, 0);       
     top: 0;
     width: 100%;
     z-index:1000;   
     margin-bottom:60px;     
     letter-spacing: 3px;  
     height:120px;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }   
 
 .otherPages {
@@ -177,7 +175,7 @@ nav li {
 .ham {    
     margin-left:90px;  
    z-index: 1000;	
-   margin-top: 50px;   
+   margin-top: 20px;   
    border: none;
    cursor: pointer;   
    }
