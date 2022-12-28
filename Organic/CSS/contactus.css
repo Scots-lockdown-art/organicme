@@ -35,7 +35,8 @@ padding-top:60px;
 
 #contactdetails {
   width:85%;
-    margin-top:-30px;
+    margin-top:-60px;
+    margin-bottom:30px;
 }
 
 
@@ -47,10 +48,9 @@ padding-top:60px;
   color:rgb(46, 45, 45);
        margin-left:auto;
        margin-right:auto;     
-     padding-top:30px; 
-    width:90%;  
-   
-    font-size:20px;
+     padding-bottom:50px; 
+    width:90%;     
+    font-size:25px;
 } 
 
 
@@ -62,7 +62,7 @@ padding-top:60px;
  
 
 #map {   
-    
+    margin-top:30px;
     text-align:center;       
    
 }
