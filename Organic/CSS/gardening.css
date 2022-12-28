@@ -99,9 +99,9 @@ button {
         padding:20px;   
         margin-top:0px;
         margin-bottom:auto;      
-        padding-top:50px;
+       
         color:rgb(46, 45, 45);            
-           padding-top:30px; 
+           padding-top:20px; 
           width:100%;        
     }
 
@@ -203,7 +203,7 @@ form {
   padding:20px;   
   margin-top:0px;
   margin-bottom:auto;      
-  padding-top:80px;
+  padding-top:40px;
   color:rgb(46, 45, 45);       
       
     width:70%;
