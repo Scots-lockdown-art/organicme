@@ -30,6 +30,11 @@ h3 {
    
 }
 
+.imageSize {
+  width:80%;
+  height:auto;
+  
+
 .foodDescription {
     padding-top:20px;
     background-color:rgb(192, 218, 199);
@@ -38,10 +43,7 @@ h3 {
     margin-right:auto;  
 }
 
-.foodImage {
-    height:auto;
-  width:80%;
-    }
+
 
 .foodButton {
     background-color:rgb(192, 218, 199); 
