@@ -1,8 +1,5 @@
 #food {
 margin-top:20px;
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
 }
 
 h3 {
@@ -11,29 +8,18 @@ h3 {
 }
 
 .foodContainer {   
-  font-size:25px;
     padding-top:0px;
-    padding-bottom:0px;
+    padding-bottom:20px;
     margin-bottom:50px;
-    margin-top:30px;  
-    flex-wrap:wrap;
-    display:flex;
-    justify-content: center; 
-    flex-direction: column; 
+    margin-top:30px;   
     margin-left:auto;
     margin-right:auto;
     text-align:center;  
-    background-color:rgb(192, 218, 199);
-    width:80%;
+    background-color:rgb(192, 218, 199);   
     color:rgb(85, 85, 85);
-    height:auto;
+    width:80%; 
    
 }
-
-.imageSize {
-  width:80%;
-  height:auto;
-  
 
 .foodDescription {
     padding-top:20px;
@@ -41,17 +27,20 @@ h3 {
     width:80%;
     margin-left:auto;
     margin-right:auto;  
+    font-size:25px;
 }
 
-
+.imageSize {
+ width:100%;
+ 
+}
 
 .foodButton {
-    background-color:rgb(192, 218, 199); 
+    background-color:rgb(192, 218, 199);
     
 }  
 
-button {  
-  font-size:25px;
+button {   
     background-color: #f3ce68;     
     color: rgb(66, 66, 66);
     padding: 16px 40px;    
@@ -71,4 +60,5 @@ button {
   #scoreout {
     text-decoration: line-through;
   }
+
 
