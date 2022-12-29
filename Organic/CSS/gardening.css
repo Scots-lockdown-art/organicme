@@ -12,7 +12,7 @@ h4 {
     display:flex;   
     flex-wrap:wrap;
     justify-content:space-between;  
-    width:90%;      
+    width:100%;      
     color:rgb(60, 95, 110);     
     margin-bottom:75px;   
     margin-left:auto;
