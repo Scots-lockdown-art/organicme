@@ -18,6 +18,10 @@ h4 {
     margin-left:auto;
     margin-right:auto;
     margin-top:40px;  
+    background-image: url("../IMG/kelso260.png");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 
