@@ -4,6 +4,9 @@ body {
     margin:0;
     padding:0;
     background-color:white;
+    display:flex;
+    min-height:100vh;
+    flex-direction: column;
   }
   
   @media only screen and (min-width: 1281px) {  
@@ -13,6 +16,7 @@ body {
 
     .main-header {
       display:flex;
+      
   }
 }
 
@@ -250,6 +254,7 @@ nav li {
     font-family: 'GlacialIndifferenceRegular';
     letter-spacing: 2px;
     margin-top:0;
+      margin-top: auto;
 }
 
 .footbar {
@@ -348,6 +353,7 @@ nav li {
     height:230px;
     font-family: 'GlacialIndifferenceRegular';
     letter-spacing: 1px;
+      margin-top: auto;
 }
 
 .footbar {
