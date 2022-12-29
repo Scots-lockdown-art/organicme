@@ -1,7 +1,7 @@
 h2 {
     text-align:center;
     font-size:36px;
-    color:grey;
+    color:black;
 }
 
 h4 {
@@ -13,11 +13,11 @@ h4 {
     flex-wrap:wrap;
     justify-content:space-between;  
     width:100%;      
-    color:rgb(60, 95, 110);     
+    color:black;     
     margin-bottom:75px;   
     margin-left:auto;
     margin-right:auto;
-    margin-top:0px;  
+    margin-top:-30px;  
     background-image: url("../IMG/kelso260.png");
     background-position: center; 
   background-repeat: no-repeat; 
