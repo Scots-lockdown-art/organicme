@@ -23,15 +23,10 @@
   }
   
   .imageContainer {          
-  background-color: rgba(255, 255, 255, 0.644); 
-  flex-wrap:wrap;
-   display:flex;
-   justify-content: center;
-    flex: 1 1 5px;   
+  background-color: rgba(255, 255, 255, 0.644);  
+   display:block;     
     margin:20px;          
-    width:auto;
-    min-width:300px;
-    max-width:350px;        
+    width:60%;          
    text-align:center;   
   }
 
@@ -39,6 +34,7 @@
     color:rgb(114, 114, 114);
     text-decoration:none;
     letter-spacing: 3px; 
+      font-size:32px;
 
   }
 
