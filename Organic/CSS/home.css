@@ -160,6 +160,7 @@ padding-top:30px;
 .toptext {
   font-size:32px;
   color:black;
+  font-weight:strong;
 }
 
 .from {  
@@ -169,17 +170,17 @@ padding-top:30px;
 
 .productContainer {  
   width:75%; 
-  color:white;
+  max-width:75%;  
   text-align:center;
   margin-left:auto;
 margin-right:auto;
   margin-bottom:40px;
-  padding-bottom:20px;
+  padding-bottom:30px;
   margin-top:30px;
   }
 
 .pricebox {
-background-color:white;
+background-color:#EFEADD;
 margin-top:0;
 padding-top:5px;   
   font-size:1.5em;
