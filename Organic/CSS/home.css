@@ -161,7 +161,7 @@ flex-wrap:wrap;
 }
 
 .toptext {
-  font-size:1em;
+  font-size:20px;
 }
 
 .from {  
@@ -171,7 +171,7 @@ flex-wrap:wrap;
 
 .productContainer {  
 text-align: center; 
-padding-bottom:0px; 
+padding-bottom:10px; 
   width:40%;
    min-width:300px;
   max-width:400px;
@@ -181,9 +181,8 @@ padding-bottom:0px;
 .pricebox {
 background-color:white;
 margin-top:0;
-padding-bottom:15px;
 padding-top:5px;  
-  font-size:1em;
+  font-size:1.5em;
   width:100%; 
   margin-bottom:25px; 
 }
