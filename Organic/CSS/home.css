@@ -143,10 +143,15 @@ text-align:center;
 width:100%;      
 color:rgb(158, 209, 233);  
 background-color: rgb(224, 212, 160);
-margin-bottom:100px;   
+margin-bottom:0px;   
 margin-left:auto;
 margin-right:auto;
-margin-top:20px;      
+margin-top:10px; 
+display:flex;  
+height:auto;
+justify-content: space-evenly;
+padding-top:30px;
+flex-wrap:wrap;
 }
 
 .from {
@@ -154,22 +159,14 @@ margin-top:20px;
   color:grey;
 }
 
-.twoContainer { 
-display:flex;   
-justify-content: center; 
- flex-wrap:wrap;
-  margin-bottom:40px;
 
-}
 
-.productContainer {
-height:250px;   
+.productContainer {  
 text-align: center; 
-padding-bottom:125px; 
-margin-bottom:70px;
-width:75%;
-max-width:450px;
- 
+padding-bottom:0px; 
+margin-bottom:10px;
+max-width:450px; 
+
 }
 
 .pricebox {
@@ -177,24 +174,18 @@ background-color:rgba(255, 255, 255, 0.685);
 margin-top:0;
 padding-bottom:25px;
 padding-top:25px;
-width:85%;
 margin-left:auto;
 margin-right:auto;  
 }
 
-.recProduct {
-font-size:2vh;
-display:block;
-color:rgb(61, 61, 61);    
-font-weight:normal;
-  
-}
+
 
 #productView {
 text-align:center;
 background-color: rgb(224, 212, 160);
 margin-top:0px;
-padding-bottom:40px;
+padding-top:50px;
+padding-bottom:70px;
 font-weight:bold;
 font-size:1.5vh;
 letter-spacing: 1.5px;
@@ -202,13 +193,13 @@ letter-spacing: 1.5px;
 }
 
 .recImage {
-margin-top:-70px;
+margin-top:30px;
 height:250px; 
 width:380px;     
 display:block;
 margin-left:auto;
 margin-right:auto; 
-margin-bottom:-18px;  
+margin-bottom:0px;  
 }
 
 button {   
@@ -266,60 +257,6 @@ margin-left:auto;
 box-shadow: 3px 3px 2px rgb(82, 82, 82);
 }
 
-.textintro {
-  margin-top:-740px; 
-  margin-bottom:0px; 
-  font-size: 5em;
-  color:rgb(197, 197, 197);
-  font-weight:bold;
-  letter-spacing: 2px;
-  font-family: 'GlacialIndifferenceRegular';
-}
-
-.textintro5 {
-  margin-top:30px;
-  margin-bottom:25px;
-  font-size: 2em;
-  color:rgb(18, 78, 18);
-  font-weight:bold;
-  letter-spacing: 2px;
-  font-family: 'GlacialIndifferenceRegular';
-}
-
-.textintro2 {
-  margin-top:-700px;
-  margin-bottom:15px;
-  font-size: 3em;
-  color:rgb(18, 78, 18);
-  font-weight:bold;
-  letter-spacing: 2px;
-  font-family: 'GlacialIndifferenceRegular';
-  text-align:left;
-  margin-left:60px;
-}
-
-.textintro3 {
-  margin-top:-750px;
-  margin-bottom:120px;
-  font-size: 2em;
-  color:rgb(19, 66, 27);
-  font-weight:bold;
-  letter-spacing: 2px;
-  font-family: 'GlacialIndifferenceRegular';
-  text-align:left;
-  padding-left:40px;
-  padding-top:110px;
-}
-
-.textintro4 {
-  margin-top:-575px;
-  margin-bottom:-17px;
-  font-size: 5em;
-  color:rgb(243, 243, 243);  
-  letter-spacing: 4px;
-  font-family: 'GlacialIndifferenceRegular';
-  font-weight:bolder ;
-}
 .backg {
   background-color:rgba(66, 66, 66, 0.822);
   padding:15px;
@@ -427,7 +364,6 @@ box-shadow: 3px 3px 2px rgb(82, 82, 82);
 
 
 
-@media   (max-width: 1000px) { 
 
   
 .textintro {
@@ -466,4 +402,3 @@ box-shadow: 3px 3px 2px rgb(82, 82, 82);
 
 
 
-}
