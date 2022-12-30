@@ -3,12 +3,14 @@
     padding:20px;
     margin-bottom:20px;
     font-size:2.5em;
+    margin-top:20px;
+    font-decoration:none;
+    letter-spacing:2px;
 }
 
 #navoptions a {
     padding-left:40px;
-    padding-right:40px;    
-    color:black;
+    padding-right:40px;
    
 }
 
@@ -61,11 +63,13 @@ h3 {
     text-align:center;
 }
 #histo {
-     background-color:rgb(183, 204, 183);   
+     background-color:rgb(183, 204, 183); 
+    margin-bottom:0;
 }
 
 #cafes {
-     background-color:#FFD700;   
+     background-color:#FFD700; 
+    margin-bottom:0;
 }
 
 
