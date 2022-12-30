@@ -20,7 +20,7 @@ body {
   }
 }
 
-/* small devices (phones, 1000px and down) */
+
 @media only screen and (max-width: 1280px) { 
     .main-header {
         display:none;
@@ -35,7 +35,7 @@ body {
     z-index:1000;   
     margin-bottom:60px;     
     letter-spacing: 3px;  
-    height:120px;
+    height:180px;
     justify-content: space-between;    
 }   
 
@@ -68,7 +68,7 @@ nav {
 }
 
 .logoImage {      
-    height:100px;     
+    height:150px;     
 }
 
 nav ul {     
@@ -95,9 +95,9 @@ nav li {
 /* creating hamburger menu animations etc */
     #nav-icon1 span{
         display: block;
-        margin:4px;
+        margin:6px;
         height: 9px;
-        width:60px;
+        width:90px;
         background: #353d34;
         border-radius: 9px;        
       }      
