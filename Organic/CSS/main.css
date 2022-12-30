@@ -179,10 +179,10 @@ nav li {
 .ham {    
     margin-left:90px;  
    z-index: 1000;	
-   margin-top: 60px;   
+   margin-top: 65x;   
    border: none;
    cursor: pointer;  
-    margin-right:10px;
+    margin-right:30px;
    }
    
    .ham:focus{
@@ -197,7 +197,7 @@ nav li {
    height: auto;	
    z-index:200;		
    margin-bottom:0px;
-   margin-top:130px;     
+   margin-top:180px;     
    /* hide the menu above the screen by default */
    transform: translateX(100%);
    /* transition adds a little animation when sliding in and out the menu */
