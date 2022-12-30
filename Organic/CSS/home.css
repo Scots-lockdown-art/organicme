@@ -9,8 +9,11 @@ h5 {
   font-size: 2em;
 }
 
-
-
+#con1, con2  {
+  background-color:rgb(183, 204, 183); 
+}
+  
+  
 #intro {
 margin-top:-60px; 
 margin-bottom:75px;  
@@ -123,7 +126,7 @@ margin-right:auto;
 padding:5px;
 text-align:center;
 letter-spacing: 2px;
-  background-color:rgb(183, 204, 183); 
+  
 }
 
 
