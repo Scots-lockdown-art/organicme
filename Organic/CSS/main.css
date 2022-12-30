@@ -181,7 +181,8 @@ nav li {
    z-index: 1000;	
    margin-top: 35px;   
    border: none;
-   cursor: pointer;   
+   cursor: pointer;  
+    margin-right:10px;
    }
    
    .ham:focus{
@@ -190,7 +191,7 @@ nav li {
         
    .navbar {
    position:fixed;   
-   background:  cream;
+   background:  white;
     margin-left:0px;
    width: 80%;	
    height: auto;	
