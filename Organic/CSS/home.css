@@ -121,7 +121,7 @@ background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 79, 79),
 }
 
 .offerImage {
-height:250px;      
+height:350px;      
 display:flex;
 margin-left:auto;
 margin-right:auto;   
@@ -181,17 +181,19 @@ padding-bottom:0px;
 background-color:rgba(255, 255, 255, 0.685);
 margin-top:0;
 padding-bottom:25px;
-padding-top:25px;  
+padding-top:15px;  
   font-size:2em;
-  width:100%;
+  width:98%;
   margin-bottom:25px;
+  padding-left:7px;
+  adding-right:7px;
 }
 
 
 
 #productView {
 text-align:center;
-background-color: rgb(224, 212, 160);
+background-color: white;
 margin-top:0px;
 padding-top:50px;
 padding-bottom:70px;
@@ -203,7 +205,7 @@ letter-spacing: 1.5px;
 
 .recImage {
 margin-top:30px;
-height:250px; 
+height:350px; 
 width:100%    
 display:block;
 margin-left:auto;
@@ -285,7 +287,7 @@ box-shadow: 3px 3px 2px rgb(82, 82, 82);
   margin-left:auto;
    margin-right:auto;
   margin-top:0px;
-  margin-bottom:50px;    
+  margin-bottom:0px;    
       }
            
 
