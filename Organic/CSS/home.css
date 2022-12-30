@@ -153,11 +153,8 @@ margin-bottom:0px;
 margin-left:auto;
 margin-right:auto;
 margin-top:10px; 
-display:flex;  
-height:auto;
-justify-content: space-evenly;
 padding-top:30px;
-flex-wrap:wrap;
+
 }
 
 .toptext {
@@ -171,9 +168,7 @@ flex-wrap:wrap;
 
 .productContainer {  
 text-align: center; 
-  width:40%;
-   min-width:300px;
-  max-width:400px;
+  width:75%; 
   color:white;
   }
 
@@ -197,13 +192,11 @@ padding-bottom:70px;
 font-weight:bold;
 font-size:1em;
 letter-spacing: 1.5px;
-
 }
 
 .recImage {
 margin-top:30px;
-height:350px;   
-  max-width:400px;
+height:450px;   
 display:block;
 margin-left:auto;
 margin-right:auto; 
@@ -215,7 +208,7 @@ button {
   color: rgb(66, 66, 66);
   padding: 16px 40px;    
   text-decoration: none;    
-  font-size: 1.5h; 
+  font-size: 1.5em; 
   font-weight:bold;     
   margin-left:auto;
   margin-right:auto; 
