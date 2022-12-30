@@ -14,20 +14,10 @@ body {
         display:none;
     }
 
-    .main-header {
-      display:flex;
-      
-  }
-}
-
-
-@media only screen and (max-width: 1280px) { 
-    .main-header {
-        display:none;
-    }
-  }
+  
 
 .main-header {
+    display:flex;
     background-color: rgb(238, 226, 186);    
     color:rgb(0, 0, 0);       
     top: 0;
@@ -35,9 +25,19 @@ body {
     z-index:1000;   
     margin-bottom:60px;     
     letter-spacing: 3px;  
-    height:180px;
+    height:200px;
     justify-content: space-between;    
-}   
+}  
+      
+}
+
+@media only screen and (max-width: 1280px) { 
+    .main-header {
+        display:none;
+    }
+  }
+
+
 
 .otherPages {
    text-decoration:none; 
@@ -148,7 +148,7 @@ nav li {
    color:#1a1a1a;
    flex-wrap:nowrap;
    flex: 1 1 auto;
-   height:130px;	
+   height:200px;	
    padding-top:10px;	
    z-index:1200;    
    position: fixed;
