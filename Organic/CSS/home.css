@@ -184,7 +184,7 @@ background-color:#EFEADD;
 margin-top:0;
 padding-top:5px;   
   font-size:1.5em;
-  width:750px;   
+  width:70vw;   
   margin-left:auto;
 margin-right:auto;
   text-align:center;
@@ -206,7 +206,7 @@ letter-spacing: 1.5px;
 .recImage {
 margin-top:30px;
 height:550px; 
- width:750px;
+ width:70vw;
 display:block; 
 margin-bottom:0px;  
   text-align:center;
