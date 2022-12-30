@@ -58,18 +58,17 @@ h3 {
     
 
 #sign {
-    color:rgb(30, 97, 45);
-    
+    color:rgb(30, 97, 45);    
     text-align:center;
 }
 #histo {
-     background-color:rgb(183, 204, 183); 
+     background-color:white; 
     margin-bottom:0;
        margin-top:0;
 }
 
 #cafes {
-     background-color:#FFD700; 
+     background-color:white; 
     margin-bottom:0;
     margin-top:0;
 }
