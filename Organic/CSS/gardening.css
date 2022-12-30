@@ -104,9 +104,8 @@ button {
     
 
     
-.gardpics { 
-  min-width:400px;
-    width:45%;   
+.gardpics {  
+    width:100%;   
 }
 
 .boxy {    
