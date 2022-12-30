@@ -113,7 +113,7 @@ font-weight:bold;
 .imageContainer {
 border: 0px solid rgb(150, 150, 150);
 padding-bottom:20px;
-background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 79, 79), rgb(255, 253, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 31, 31), rgb(253, 31, 31), rgb(255, 255, 255), rgb(255, 255, 255));
 
 }
 
