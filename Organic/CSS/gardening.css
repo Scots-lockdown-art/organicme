@@ -18,7 +18,7 @@ h4 {
     justify-content:space-between;  
     width:100%;      
     color:white;     
-    margin-bottom:75px;   
+    margin-bottom:0px;   
     margin-left:auto;
     margin-right:auto;
     margin-top:-70px;  
@@ -107,6 +107,8 @@ button {
 .gardpics {  
     width:100%;   
     height:600px;
+    padding:0;
+    margin:0;
 }
 
 .boxy {    
@@ -131,7 +133,7 @@ button {
 
 
 #tests{   
-    background-color: green);
+    background-color: green;
     width:100%;
     padding-top:25px;
     padding-bottom:25px;
