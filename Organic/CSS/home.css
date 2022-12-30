@@ -172,17 +172,17 @@ text-align: center;
 padding-bottom:0px; 
   width:40%;
    min-width:300px;
-  max-width:450px;
+  max-width:400px;
   color:white;
-  font-size:2em;
+  font-size:20px;
 
 }
 
 .pricebox {
 background-color:white;
 margin-top:0;
-padding-bottom:25px;
-padding-top:15px;  
+padding-bottom:5px;
+padding-top:5px;  
   font-size:1em;
   width:100%; 
   margin-bottom:25px; 
@@ -204,7 +204,6 @@ letter-spacing: 1.5px;
 .recImage {
 margin-top:30px;
 height:350px;   
-
   max-width:400px;
 display:block;
 margin-left:auto;
