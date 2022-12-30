@@ -168,7 +168,6 @@ flex-wrap:wrap;
 .productContainer {  
 text-align: center; 
 padding-bottom:0px; 
-margin-bottom:30px;
   width:40%;
 
 }
@@ -180,6 +179,7 @@ padding-bottom:25px;
 padding-top:25px;  
   font-size:2em;
   width:100%;
+  margin-bottom:25px;
 }
 
 
@@ -191,7 +191,7 @@ margin-top:0px;
 padding-top:50px;
 padding-bottom:70px;
 font-weight:bold;
-font-size:2em;
+font-size:1em;
 letter-spacing: 1.5px;
 
 }
@@ -199,7 +199,7 @@ letter-spacing: 1.5px;
 .recImage {
 margin-top:30px;
 height:250px; 
-width:380px;     
+width:100%    
 display:block;
 margin-left:auto;
 margin-right:auto; 
