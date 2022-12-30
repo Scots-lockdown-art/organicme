@@ -97,8 +97,7 @@ text-align: center;
  justify-content: space-evenly; 
  flex-wrap:wrap;
  display:flex;  
- width:40%; 
- 
+ width:40%;  
 }
 
 
@@ -161,8 +160,10 @@ padding-top:30px;
 flex-wrap:wrap;
 }
 
-.from {
-  
+.toptext {
+  font-size:1em;
+
+.from {  
   color:grey;
 }
 
@@ -174,14 +175,12 @@ padding-bottom:0px;
    min-width:300px;
   max-width:400px;
   color:white;
-  font-size:20px;
-
-}
+  }
 
 .pricebox {
 background-color:white;
 margin-top:0;
-padding-bottom:5px;
+padding-bottom:15px;
 padding-top:5px;  
   font-size:1em;
   width:100%; 
