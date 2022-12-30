@@ -162,7 +162,7 @@ flex-wrap:wrap;
 }
 
 .from {
-  font-style:italic;
+  
   color:grey;
 }
 
@@ -173,6 +173,8 @@ padding-bottom:0px;
   width:40%;
    min-width:300px;
   max-width:450px;
+  color:white;
+  font-size:2em;
 
 }
 
@@ -181,11 +183,9 @@ background-color:white;
 margin-top:0;
 padding-bottom:25px;
 padding-top:15px;  
-  font-size:2em;
+  font-size:1em;
   width:100%; 
-  margin-bottom:25px;
-  padding-left:7px;
-  adding-right:7px;
+  margin-bottom:25px; 
 }
 
 
