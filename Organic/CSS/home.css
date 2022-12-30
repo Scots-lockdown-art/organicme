@@ -70,7 +70,7 @@ margin-bottom:25px;
 margin-left:auto;
 margin-right:auto;  
 margin-top:0px; 
-
+  background-color:rgb(183, 204, 183);  
 }
 
 
@@ -103,7 +103,7 @@ line-height:1.5;
 .imageContainer {
 border: 0px solid rgb(150, 150, 150);
 padding-bottom:20px;
-background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 79, 79), rgb(255, 253, 253), rgb(220, 233, 224), rgb(181, 214, 190));
+background-image: linear-gradient(to bottom, rgb(253, 31, 31), rgb(253, 79, 79), rgb(255, 253, 253), rgb(220, 233, 224), rgb(255, 255, 255));
 
 }
 
