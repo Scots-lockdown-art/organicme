@@ -9,8 +9,12 @@ h5 {
   font-size: 2em;
 }
 
-#con1, con2  {
+#con1 {
   background-color:rgb(183, 204, 183); 
+}
+  
+#con2 {
+  background-color: rgb(224, 212, 160);
 }
   
   
