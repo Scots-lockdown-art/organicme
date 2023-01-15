@@ -345,12 +345,12 @@ nav li {
 
 #footer {
     padding: 1em;
-    font-size:16px;
+    font-size:1.5em;
     text-align:center;
     background-color: rgb(46, 71, 54);
     color: rgb(255, 255, 255);
     border-top: rgb(187, 186, 176) 4px solid;
-    height:230px;
+    height:400px;
     font-family: 'GlacialIndifferenceRegular';
     letter-spacing: 1px;
       margin-top: auto;
@@ -367,18 +367,18 @@ nav li {
 
 .footimsize {
 
-  height:40px;
+  height:70px;
   
 }
 
 .footimsize2 {
-  height:30px;
-  padding-bottom:5px;
+  height:60px;
+  padding-bottom:10px;
 }
 
 .footimsize3 {
   
-  height:40px; 
+  height:70px; 
 }
 
 .copy {    
@@ -431,7 +431,7 @@ nav li {
 }
 
 .copyr {
-  font-size:12px;
+  font-size:20px;
   letter-spacing:0;
 }
 
