@@ -1,19 +1,31 @@
-background-color:rgb(183, 204, 183); 
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  color: rgb(194, 10, 10);
+  display:block;
+  font-size: 2em;
+}
+
+#con1 {
+  background-color:rgb(183, 204, 183); 
   margin-top:0px;
-  margin-bottom:0;
+  margin-bottom:50px;
   padding-bottom:40px;
-  padding-top:20px;
+  padding-top:15px;
   width:90%;
   margin-left:auto;
   margin-right:auto;
 }
   
 #con2 {
+  padding-top:15px;
   width:90%;
   background-color: rgb(224, 212, 160);
-  margin-top:0;
-  margin-bottom:0;
-  padding-bottom:40px;
+  margin-top:50px;
+   padding-bottom:40px;
   margin-left:auto;
   margin-right:auto;
   margin-bottom:30px;
@@ -106,9 +118,10 @@ padding-top:20px;
 }
 
 .offerImage {
-height:350px;   
-  max-width:400px;
-display:flex;
+  
+  width: 60vw;
+  height:550px;
+  
 margin-left:auto;
 margin-right:auto;   
 }
