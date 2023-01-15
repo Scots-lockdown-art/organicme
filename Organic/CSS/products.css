@@ -5,17 +5,17 @@
     justify-content: center;  
     width:75%;      
     color:rgb(158, 209, 233);     
-    margin-bottom:150px;   
+    margin-bottom:220px;   
     margin-left:auto;
     margin-right:auto;
-    margin-top:70px;           
+    margin-top:250px;           
   }
       
 
   .offer {
     font-size:2vh;
     display:flex;
-    color:rgb(97, 97, 97);  
+    color:rgb(59, 59, 59);  
     justify-content: center; 
     font-weight:normal;
     font-style:italic;
@@ -23,18 +23,22 @@
   }
   
   .imageContainer {          
-  background-color: rgba(255, 255, 255, 0.644);  
-   display:block;     
+  background-color: rgba(255, 255, 255, 0.644); 
+  flex-wrap:wrap;
+   display:flex;
+   justify-content: center;
+    flex: 1 1 5px;   
     margin:20px;          
-    width:60%;          
+    width:auto;
+    min-width:300px;
+    max-width:350px;        
    text-align:center;   
   }
 
   .test2 a {
-    color:rgb(114, 114, 114);
+    color:rgb(56, 56, 56);
     text-decoration:none;
     letter-spacing: 3px; 
-      font-size:32px;
 
   }
 
