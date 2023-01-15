@@ -213,7 +213,7 @@ nav li {
    margin-bottom:0px;
    padding-bottom:40px;
     margin-top:0px;
-   padding-top:-20px;
+   padding-top:0px;
    margin-left:0px; 
    display:block;  
    }
@@ -230,7 +230,7 @@ nav li {
    }
       
    .navbar li a:hover {
-   color:#252525;
+   color:white;
    }
 
    .navbar li a {    
