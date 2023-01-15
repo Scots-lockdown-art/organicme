@@ -6,68 +6,8 @@ body {
     background-color:white;
   }
   
-  @media only screen and (min-width: 1281px) {  
-  .mobile-header {
-        display:none;
-    }
-
-    .main-header {
-      display:flex;
-  }
-}
-
-/* small devices (phones, 1000px and down) */
-@media only screen and (max-width: 1280px) { 
-    .main-header {
-        display:none;
-    }
-  }
-
-.main-header {
-    background-color: rgb(238, 226, 186);    
-    color:rgb(0, 0, 0);    
-   
-    top: 0;
-    width: 100%;
-    z-index:1000;   
-    margin-bottom:60px;     
-    letter-spacing: 3px;  
-    height:120px;
-    justify-content: space-between;
-    
-}   
-
-.otherPages {
-   text-decoration:none; 
-   font-size:1.5vh;
-   color:rgb(58, 58, 58);    
-}  
-
-.otherPages:hover {
-    color:rgb(119, 194, 245);
-    }
  
-.currentPage {
-        color: rgb(0, 0, 0);        
-        text-decoration:underline; 
-        font-weight:400;       
-        font-size:2vh;           
-      }
 
-nav {  
-   flex:9 1 50px;
-    padding-top:60px;  
-                }
-
-.logo { 
- padding-top:20px;
- flex:4 2 50px;
- 
-}
-
-.logoImage {      
-    height:180px;     
-}
 
 nav ul {     
     display:flex;
@@ -170,14 +110,14 @@ nav li {
    }  
  
  .logoImage2 {      
-     height:120px;
+     height:170px;
      max-width:auto;      
  }
         
 .ham {    
     margin-left:70px;  
    z-index: 1000;	
-   margin-top:100px;   
+   margin-top:70px;   
    border: none;
    cursor: pointer;   
    }
