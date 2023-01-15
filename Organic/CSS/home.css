@@ -1,3 +1,4 @@
+
 section {
   margin: 0;
   padding: 0;
@@ -88,6 +89,8 @@ margin-right:auto;
 margin-top:100px; 
   padding-top:30px;
   background-color:rgb(183, 204, 183);  
+  width:85vw;
+  text-align:center;
 }
 
 
@@ -97,7 +100,7 @@ padding:10px;
 text-align: center;   
  margin-left:auto;
  margin-right:auto;   
- width:75vw;  
+ width:80vw;  
 }
 
 
@@ -115,6 +118,9 @@ padding-bottom:40px;
 background-color: white;
 padding-top:10px;
 margin-top:-20px;
+width:75vw;
+margin-left:auto;
+margin-right:auto;
 }
 
 h6 {
@@ -224,13 +230,20 @@ button {
   background-color: #f3ce68;     
   color: rgb(66, 66, 66);
   padding: 16px 40px;    
-  text-decoration: none;    
-  font-size: 32px; 
+  text-decoration: none;  
   font-weight:bold;     
   margin-left:auto;
   margin-right:auto; 
   border:none;  
   margin-bottom:20px;
+}
+
+.basket1 {
+  font-size:2em;
+}
+
+.basket2 {
+  font-size:1.5em;
 }
 
 button:hover {
