@@ -257,9 +257,7 @@ nav ul {
 #icons {
   padding-bottom:70px;
     padding-top:40px;
-
 }
-
 
 
 .footbar {
@@ -318,7 +316,6 @@ nav ul {
 }
 
 
-
 .headcol {
   color: #bbb;
 
@@ -337,9 +334,13 @@ nav ul {
 #contdet a:hover {
   color:rgb(173, 173, 173);
 }
+    
+.addsmall {
+ fonmt-size:1.5em;
+    }
 
 .copyr {
-  font-size:1em;
+  font-size:16px;
   letter-spacing:0;
 }
 
