@@ -177,7 +177,7 @@ nav li {
 .ham {    
     margin-left:70px;  
    z-index: 1000;	
-   margin-top:20px;   
+   margin-top:100px;   
    border: none;
    cursor: pointer;   
    }
@@ -354,6 +354,7 @@ nav li {
 
 #icons {
   padding-bottom:70px;
+    padding-top:40px;
 
 }
 
