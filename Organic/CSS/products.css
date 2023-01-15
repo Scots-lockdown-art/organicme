@@ -1,9 +1,6 @@
 
-#one {    
-    display:flex;   
-    flex-wrap:wrap;
-    justify-content: center;  
-    width:75%;      
+#one {        
+    width:95%;      
     color:rgb(158, 209, 233);     
     margin-bottom:220px;   
     margin-left:auto;
@@ -30,7 +27,7 @@
     flex: 1 1 5px;   
     margin:20px;          
     width:auto;
-    width:400px;         
+    width:60%;        
    text-align:center;   
   }
 
