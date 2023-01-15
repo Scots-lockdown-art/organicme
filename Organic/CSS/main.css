@@ -1,122 +1,84 @@
-body {
-    font-family:"Monsterrat", sans-serif;
-    font-size: 14pt;
-    margin:0;
-    padding:0;
-    background-color:white;
+ background-color:white;
   }
-  
- 
 
+  @media only screen and (min-width: 1281px) {  
+  .mobile-header {
+        display:none;
+    }
+
+    .main-header {
+      display:flex;
+  }
+}
+
+/* small devices (phones, 1000px and down) */
+@media only screen and (max-width: 1280px) { 
+    .main-header {
+        display:none;
+    }
+  }
+
+.main-header {
+    background-color: rgb(238, 226, 186);    
+    color:rgb(0, 0, 0);    
+
+    top: 0;
+    width: 100%;
+    z-index:1000;   
+    margin-bottom:60px;     
+    letter-spacing: 3px;  
+    height:120px;
+    justify-content: space-between;
+
+}   
+
+.otherPages {
+   text-decoration:none; 
+   font-size:1.5vh;
+   color:rgb(58, 58, 58);    
+}  
+
+.otherPages:hover {
+    color:rgb(119, 194, 245);
+    }
+
+.currentPage {
+        color: rgb(0, 0, 0);        
+        text-decoration:underline; 
+        font-weight:400;       
+        font-size:2vh;           
+      }
+
+nav {  
+   flex:9 1 50px;
+    padding-top:60px;  
+                }
+
+.logo { 
+ padding-top:20px;
+ flex:4 2 50px;
+
+}
+
+.logoImage {      
+    height:180px;     
+}
 
 nav ul {     
     display:flex;
-    list-style:none;           
-}
-
-nav li {
-  padding-left:20px;
-  padding-right:20px;
-}
-
-.cart {
-  flex:1 1 50px;
-  margin-top:60px;
-}
-
-.cartImage {
-  height:40px;
-  padding-left:30px;
-}
-
-
-/* creating hamburger menu animations etc */
-    #nav-icon1 span{
-        display: block;
-        margin:4px;
-        height: 9px;
-        width:60px;
-        background: #353d34;
-        border-radius: 9px;        
-      }      
-      #nav-menu1:checked ~ #nav-icon1 span:nth-child(1){
-        -webkit-transform: rotate(135deg) translate(21px,-13px);
-        -moz-transform: rotate(135deg) translate(21px,-13px);
-        -o-transform: rotate(135deg) translate(21px,-13px);
-        transform: rotate(135deg) translate(21px,-13px);
-      }
-      #nav-menu1:checked ~ #nav-icon1 span:nth-child(2){
-         opacity: 0;
-      }
-      #nav-menu1:checked ~ #nav-icon1 span:nth-child(3){
-        -webkit-transform: rotate(-135deg) translate(3px);
-        -moz-transform: rotate(-135deg) translate(3px);
-        -o-transform: rotate(-135deg) translate(3px);
-        transform: rotate(-135deg) translate(3px);
-      }
-      input[type="checkbox"]{
-        display:none;
-      }      
-      #nav-icon1 span{  
-        cursor:pointer; 
-        -webkit-transition: .25s ease-in-out;
-        -moz-transition: .25s ease-in-out;
-        -o-transition: .25s ease-in-out;
-        transition: .25s ease-in-out;
-        position:relative;
-        left:0px;
-      }     
-    #nav-menu1:checked ~ #nav-icon1 span:nth-child(2){
-        opacity: 0;
-        left: -60px;
-      }
-
-  .mobile-header {
-    margin-bottom:200px;
-  }
-
-  #menu {
-   margin-top:0px;	
-   display: flex;   
-   width:100%;	
-   margin-left:0px;
-   margin-right:0px;
-   background-color: rgb(238, 226, 186);         
-   justify-content:space-between;
-   color:#1a1a1a;
-   flex-wrap:nowrap;
-   flex: 1 1 auto;
-   height:200px;	
-   padding-top:10px;	
-   z-index:1200;    
-   position: fixed;
-   top:0;   
-   }   
-   
-   .box {
-   display:flex;	   
-   }
-   
-   .box-2 {	
-   width:20%;   
-   }
-   
-   .box-1  {
-   width: 80%;	
-   margin-top:auto;
-   margin-bottom:auto;
-   margin-left:25px;
-   text-align:left;
+@@ -170,14 +110,14 @@ nav li {
    }  
- 
+
  .logoImage2 {      
+     
      height:170px;
      max-width:auto;      
  }
-        
+
 .ham {    
     margin-left:70px;  
    z-index: 1000;	
+     
    margin-top:70px;   
    border: none;
    cursor: pointer;   
