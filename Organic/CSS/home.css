@@ -6,6 +6,11 @@ section {
 h5 {
   color: rgb(194, 10, 10);  
   font-size: 3em;
+  background-color: white;
+  width:60vw;
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #con1 {
@@ -54,7 +59,7 @@ h5 {
       }
       
       .textintro5 {
-        padding-top:80px;
+        padding-top:40px;
         margin-bottom:-48px;
         font-size: 3em;
         text-align:center;
@@ -92,7 +97,7 @@ font-weight:bold;
 
 .offerContainer {
 padding-bottom:40px;
-background-color: rgb(240, 226, 210); 
+background-color: rgb(230, 220, 209); 
 padding-top:10px;
 margin-top:20px;
 width:90vw;
@@ -155,7 +160,7 @@ padding-top:0px;
 }
 
 .from {  
-  color:rgb(61, 61, 61);
+  color:rgb(43, 43, 43);
 }
 
 
