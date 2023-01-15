@@ -157,8 +157,7 @@ background-color: rgb(224, 212, 160);
 margin-bottom:0px;   
 margin-left:auto;
 margin-right:auto;
-margin-top:10px; 
-padding-top:30px;
+padding-top:0px;
 
 }
 
@@ -169,7 +168,7 @@ padding-top:30px;
 }
 
 .from {  
-  color:grey;
+  color:rgb(61, 61, 61);
 }
 
 
@@ -179,7 +178,7 @@ padding-top:30px;
   text-align:center;
   margin-left:auto;
 margin-right:auto;
-  margin-bottom:40px;
+  margin-bottom:60px;
   padding-bottom:30px;
   margin-top:30px;
   }
@@ -194,6 +193,7 @@ padding-top:5px;
 margin-right:auto;
   text-align:center;
    padding-bottom:20px;
+   margin-bottom:30px;
 }
 
 
@@ -209,7 +209,7 @@ letter-spacing: 1.5px;
 }
 
 .recImage {
-margin-top:30px;
+margin-top:-10px;
 height:550px; 
  width:70vw;
 display:block; 
