@@ -4,6 +4,7 @@
     padding:20px;
     margin-bottom:60px;
 padding-top:25px;
+margin-top:30px;
 }
 
 #navoptions a {
@@ -11,7 +12,8 @@ padding-top:25px;
     padding-right:25px;  
     padding-top:25px;  
     color:black;
-    font-size:32px;
+    font-size:45px;
+    font-weight:bold;
 }
 
 h3 {
