@@ -146,7 +146,7 @@ nav li {
    color:#1a1a1a;
    flex-wrap:nowrap;
    flex: 1 1 auto;
-   height:130px;	
+   height:200px;	
    padding-top:10px;	
    z-index:1200;    
    position: fixed;
@@ -194,7 +194,7 @@ nav li {
    height: auto;	
    z-index:200;		
    margin-bottom:0px;
-   margin-top:130px;     
+   margin-top:200px;     
    /* hide the menu above the screen by default */
    transform: translateX(100%);
    /* transition adds a little animation when sliding in and out the menu */
