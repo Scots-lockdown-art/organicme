@@ -1,6 +1,6 @@
 h2 {
   text-align:center;
-  font-size:36px;
+  font-size:3em;
   color:white;
    margin-left:auto;
   margin-right:auto;
@@ -10,6 +10,7 @@ h2 {
 h3 {
   color:rgb(1, 82, 28);
   text-align:center;
+  font-size:2.5em;
 }
 
 #container1 {
@@ -122,7 +123,7 @@ button {
   font-style:italic;
   margin-left:auto;
   margin-right:auto;
-  font-size:1.5em;
+  font-size:2em;
   
 }
 
@@ -157,15 +158,23 @@ button {
 
 #aboutgarden {
   display:block;  
-  text-align:center;
+   width:90%;
   margin-bottom:75px;
+  
+  margin-left:auto;
+  margin-right:auto;
    
 }
 
 .textAbout {
-margin-top:-20px;
-  line-height:1.5;
+margin-top:0px;
+  line-height:1.4;
   font-size:2em;
+  padding-top:15px;
+  text-align: justify;
+
+
+
 }
   
 form {   
@@ -181,3 +190,6 @@ color:rgb(46, 45, 45);
   margin-left:auto;
   margin-right:auto;
 }
+
+
+
