@@ -227,11 +227,11 @@ nav li {
    }
       
    .navbar li a:hover {
-   color:#ffffff;
+   color:black;
    }
 
    .navbar li a {    
-    color:#013b01;
+    color:white;
     text-decoration:none;
     }
          
