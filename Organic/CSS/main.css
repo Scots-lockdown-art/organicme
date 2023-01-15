@@ -1,6 +1,11 @@
- background-color:white;
+ body {
+    font-family:"Monsterrat", sans-serif;
+    font-size: 14pt;
+    margin:0;
+    padding:0;
+    background-color:rgb(253, 247, 225);
   }
-
+  
   @media only screen and (min-width: 1281px) {  
   .mobile-header {
         display:none;
@@ -21,7 +26,7 @@
 .main-header {
     background-color: rgb(238, 226, 186);    
     color:rgb(0, 0, 0);    
-
+   
     top: 0;
     width: 100%;
     z-index:1000;   
@@ -29,7 +34,7 @@
     letter-spacing: 3px;  
     height:120px;
     justify-content: space-between;
-
+    
 }   
 
 .otherPages {
@@ -41,7 +46,7 @@
 .otherPages:hover {
     color:rgb(119, 194, 245);
     }
-
+ 
 .currentPage {
         color: rgb(0, 0, 0);        
         text-decoration:underline; 
@@ -57,28 +62,121 @@ nav {
 .logo { 
  padding-top:20px;
  flex:4 2 50px;
-
+ 
 }
 
 .logoImage {      
-    height:180px;     
+    height:100px;     
 }
 
 nav ul {     
     display:flex;
-@@ -170,14 +110,14 @@ nav li {
-   }  
+    list-style:none;           
+}
 
+nav li {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.cart {
+  flex:1 1 50px;
+  margin-top:60px;
+}
+
+.cartImage {
+  height:40px;
+  padding-left:30px;
+}
+
+
+/* creating hamburger menu animations etc */
+    #nav-icon1 span{
+        display: block;
+        margin:4px;
+        height: 9px;
+        width:60px;
+        background: #353d34;
+        border-radius: 9px;        
+      }      
+      #nav-menu1:checked ~ #nav-icon1 span:nth-child(1){
+        -webkit-transform: rotate(135deg) translate(21px,-13px);
+        -moz-transform: rotate(135deg) translate(21px,-13px);
+        -o-transform: rotate(135deg) translate(21px,-13px);
+        transform: rotate(135deg) translate(21px,-13px);
+      }
+      #nav-menu1:checked ~ #nav-icon1 span:nth-child(2){
+         opacity: 0;
+      }
+      #nav-menu1:checked ~ #nav-icon1 span:nth-child(3){
+        -webkit-transform: rotate(-135deg) translate(3px);
+        -moz-transform: rotate(-135deg) translate(3px);
+        -o-transform: rotate(-135deg) translate(3px);
+        transform: rotate(-135deg) translate(3px);
+      }
+      input[type="checkbox"]{
+        display:none;
+      }      
+      #nav-icon1 span{  
+        cursor:pointer; 
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+        position:relative;
+        left:0px;
+      }     
+    #nav-menu1:checked ~ #nav-icon1 span:nth-child(2){
+        opacity: 0;
+        left: -60px;
+      }
+
+  .mobile-header {
+    margin-bottom:200px;
+  }
+
+  #menu {
+   margin-top:0px;	
+   display: flex;   
+   width:100%;	
+   margin-left:0px;
+   margin-right:0px;
+   background-color: rgb(238, 226, 186);         
+   justify-content:space-between;
+   color:#1a1a1a;
+   flex-wrap:nowrap;
+   flex: 1 1 auto;
+   height:130px;	
+   padding-top:10px;	
+   z-index:1200;    
+   position: fixed;
+   top:0;   
+   }   
+   
+   .box {
+   display:flex;	   
+   }
+   
+   .box-2 {	
+   width:20%;   
+   }
+   
+   .box-1  {
+   width: 80%;	
+   margin-top:auto;
+   margin-bottom:auto;
+   margin-left:25px;
+   text-align:left;
+   }  
+ 
  .logoImage2 {      
-     
      height:170px;
      max-width:auto;      
  }
-
+        
 .ham {    
     margin-left:70px;  
    z-index: 1000;	
-     
    margin-top:70px;   
    border: none;
    cursor: pointer;   
@@ -96,7 +194,7 @@ nav ul {
    height: auto;	
    z-index:200;		
    margin-bottom:0px;
-   margin-top:200px;     
+   margin-top:130px;     
    /* hide the menu above the screen by default */
    transform: translateX(100%);
    /* transition adds a little animation when sliding in and out the menu */
@@ -130,11 +228,11 @@ nav ul {
    }
       
    .navbar li a:hover {
-   color:#252525;
+   color:#ffffff;
    }
 
    .navbar li a {    
-    color:#018501;
+    color:#013b01;
     text-decoration:none;
     }
          
@@ -251,13 +349,17 @@ nav ul {
     height:auto;
     font-family: 'GlacialIndifferenceRegular';
     letter-spacing: 1px;
-    padding-top:25px;
 }
 
 #icons {
-  padding-bottom:70px;
-    padding-top:40px;
+  padding-bottom:50px;
+
 }
+
+.contentfoot {
+  margin-top:30px;
+}
+
 
 
 .footbar {
@@ -272,27 +374,27 @@ nav ul {
 .footimsize {
  padding-left:20px;
  padding-right:20px;
-  height:100px;
+  height:80px;
   
 }
 
 .footimsize2 {
   padding-left:20px;
  padding-right:20px;
-  height:80px;
-  padding-bottom:15px;
+  height:60px;
+  padding-bottom:10px;
 }
 
 .footimsize3 {
   padding-left:20px;
  padding-right:20px;
-  height:100px; 
+  height:80px; 
 }
 
 .copy {    
   color: #bbb;
   text-align:center; 
-  padding-bottom:70px; 
+  padding-bottom:50px; 
 }
 
 .copy ul {
@@ -316,6 +418,7 @@ nav ul {
 }
 
 
+
 .headcol {
   color: #bbb;
 
@@ -334,13 +437,9 @@ nav ul {
 #contdet a:hover {
   color:rgb(173, 173, 173);
 }
-    
-.addsmall {
- fonmt-size:1.5em;
-    }
 
 .copyr {
-  font-size:16px;
+  font-size:1em;
   letter-spacing:0;
 }
 
