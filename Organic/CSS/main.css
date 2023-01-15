@@ -349,15 +349,12 @@ nav li {
     height:auto;
     font-family: 'GlacialIndifferenceRegular';
     letter-spacing: 1px;
+    padding-top:25px;
 }
 
 #icons {
-  padding-bottom:50px;
+  padding-bottom:70px;
 
-}
-
-.contentfoot {
-  margin-top:30px;
 }
 
 
@@ -394,7 +391,7 @@ nav li {
 .copy {    
   color: #bbb;
   text-align:center; 
-  padding-bottom:50px; 
+  padding-bottom:70px; 
 }
 
 .copy ul {
