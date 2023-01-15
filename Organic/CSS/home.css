@@ -1,4 +1,3 @@
-
 section {
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ h5 {
   margin-bottom:50px;
   padding-bottom:40px;
   padding-top:15px;
-  width:90%;
+  width:100%;
   margin-left:auto;
   margin-right:auto;
 }
@@ -83,25 +82,17 @@ margin-top:250px;
 #one {    
 
 color:rgb(158, 209, 233); 
-margin-bottom:25px;   
+margin-bottom:50px;   
 margin-left:auto;
 margin-right:auto;  
 margin-top:100px; 
   padding-top:30px;
   background-color:rgb(183, 204, 183);  
-  width:85vw;
+  width:100vw;
   text-align:center;
 }
 
 
-.offerContainer { 
-margin-bottom:40px;    
-padding:10px;
-text-align: center;   
- margin-left:auto;
- margin-right:auto;   
- width:80vw;  
-}
 
 
 .offer {
@@ -112,15 +103,16 @@ justify-content: center;
 font-weight:bold;
 }
 
-.imageContainer {
-border: 0px solid rgb(150, 150, 150);
+.offerContainer {
 padding-bottom:40px;
-background-color:#EFEADD;
+background-color: rgb(240, 226, 210); 
 padding-top:10px;
-margin-top:-20px;
-width:75vw;
+margin-top:20px;
+width:90vw;
 margin-left:auto;
 margin-right:auto;
+text-align:center;
+margin-bottom:30px;
 }
 
 h6 {
@@ -129,11 +121,12 @@ h6 {
 }
 
 .offerImage {  
-  width: 75vw;
+  width: 85vw;
   height:550px;  
 margin-left:auto;
 margin-right:auto; 
 margin-top:-20px;  
+text-align:center;
 }
 
 h3, h4 {
