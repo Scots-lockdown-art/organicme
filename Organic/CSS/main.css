@@ -196,7 +196,7 @@ nav li {
    height: auto;	
    z-index:200;		
    margin-bottom:0px;
-   margin-top:130px;     
+   margin-top:170px;     
    /* hide the menu above the screen by default */
    transform: translateX(100%);
    /* transition adds a little animation when sliding in and out the menu */
