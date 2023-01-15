@@ -4,9 +4,8 @@ section {
 }
 
 h5 {
-  color: rgb(194, 10, 10);
-  display:block;
-  font-size: 2.5em;
+  color: rgb(194, 10, 10);  
+  font-size: 3em;
 }
 
 #con1 {
@@ -24,11 +23,11 @@ h5 {
   padding-top:15px;
   width:90%;
   background-color: rgb(224, 212, 160);
-  margin-top:50px;
+  margin-top:10px;
    padding-bottom:40px;
   margin-left:auto;
   margin-right:auto;
-  margin-bottom:30px;
+  margin-bottom:120px;
 }
   
   
@@ -112,11 +111,11 @@ width:90vw;
 margin-left:auto;
 margin-right:auto;
 text-align:center;
-margin-bottom:30px;
+margin-bottom:60px;
 }
 
 h6 {
-  font-size:2em;
+  font-size:2.5em;
   color:black;
 }
 
@@ -202,9 +201,9 @@ margin-right:auto;
 text-align:center;
 margin-top:0px;
 padding-top:50px;
-padding-bottom:70px;
+padding-bottom:50px;
 font-weight:bold;
-font-size:1em;
+font-size:1.5em;
 letter-spacing: 1.5px;
 }
 
