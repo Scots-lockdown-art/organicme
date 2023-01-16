@@ -3,23 +3,127 @@ body {
   font-size: 14pt;
   margin:0;
   padding:0;
-  background-color:white;
+  background-color:rgb(253, 252, 240);
 }
 
-@media only screen and (min-width: 1281px) {  
+@media only screen and (min-width: 1000px) {  
 .mobile-header {
       display:none;
+  }
+
+  #footer {
+    display:none;
   }
 
   .main-header {
     display:flex;
 }
+
+
+ 
+#footer2 {
+  font-size:1em;
+    padding: 2em;
+    text-align:center;
+    background-color: rgb(46, 71, 54);
+    color: rgb(255, 255, 255);
+    border-top: rgb(187, 186, 176) 4px solid;
+    height:230px;
+    font-family: 'GlacialIndifferenceRegular';
+    letter-spacing: 2px;
 }
 
-/* small devices (phones, 1000px and down) */
-@media only screen and (max-width: 1280px) { 
+.footbar2 {
+  display:flex;
+  justify-content: space-between;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+}
+
+.footimsize1 {
+
+  height:50px;
+  
+}
+
+.footimsize21 {
+  height:40px;
+  padding-bottom:5px;
+}
+
+.footimsize31 {
+  
+  height:50px; 
+}
+
+.copy2 {    
+  color: #bbb;
+  text-align:left;  
+}
+
+.copy2 ul {
+  padding-left:0;
+}
+
+.copy2 ul a {
+  color:#799176;
+  text-decoration:none;
+}
+
+.copy2 ul a:hover {
+  color: #0f310c;
+  cursor:pointer;
+}
+
+.copy2 li {
+  list-style:none;
+  text-align:left;
+}
+
+#icons2 {
+  padding-top:190px;
+  color: #bbb;
+  
+}
+
+.headcol2 {
+  color: #bbb;
+
+}
+
+#contdet2 {
+  color:#7b8b79;
+  text-align:left;
+}
+
+#contdet2 a {
+  color:white;
+  letter-spacing: 0.5px;
+}
+
+#contdet2 a:hover {
+  color:rgb(173, 173, 173);
+}
+
+.copyr2 {
+  font-size:1em;
+  letter-spacing:0;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 999px) { 
   .main-header {
       display:none;
+  }
+
+  #footer2 {
+    display:none;
   }
 }
 
@@ -235,7 +339,6 @@ padding-left:30px;
   text-decoration:none;
   }
        
-       
       
  @media (min-width:1000px)
   
@@ -337,7 +440,6 @@ letter-spacing:0;
  @media  (max-width:999px)
 
  { 
-
 
 
 #footer {
@@ -454,3 +556,6 @@ color:rgb(141, 141, 141);
 }
 
  }
+
+
+ 
