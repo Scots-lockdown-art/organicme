@@ -3,7 +3,7 @@ body {
   font-size: 14pt;
   margin:0;
   padding:0;
-  background-color:rgb(253, 252, 240);
+  background-color:white;
 }
 
 @media only screen and (min-width: 1000px) {  
