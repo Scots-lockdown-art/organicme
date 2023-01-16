@@ -6,7 +6,7 @@ body {
     background-color:rgb(253, 247, 225);
   }
   
-  @media only screen and (min-width: 1281px) {  
+  @media only screen and (min-width: 801px) {  
   .mobile-header {
         display:none;
     }
@@ -17,7 +17,7 @@ body {
 }
 
 /* small devices (phones, 1000px and down) */
-@media only screen and (max-width: 1280px) { 
+@media only screen and (max-width: 800px) { 
     .main-header {
         display:none;
     }
