@@ -187,7 +187,7 @@ padding-left:30px;
       
  .navbar {
  position:fixed;   
- background:  #d4d4d4;
+ background:  #fcfadb;
   margin-left:0px;
  width: 800px;	
  height: auto;	
@@ -231,9 +231,10 @@ padding-left:30px;
  }
 
  .navbar li a {    
-  color:rgb(13, 53, 1);
+  color:rgb(14, 58, 1);
   text-decoration:none;
   }
+       
        
       
  @media (min-width:1000px)
