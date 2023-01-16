@@ -338,9 +338,10 @@ letter-spacing:0;
  { 
 
 
+
 #footer {
   padding: 1em;
-  font-size:2em;
+  font-size:1.8em;
   text-align:center;
   background-color: rgb(46, 71, 54);
   color: rgb(255, 255, 255);
@@ -428,7 +429,7 @@ color: #bbb;
 
 .footadd {
   color:#799176;
-font-size:0.9em;
+font-size:0.8em;
  }
 
 #contdet {
@@ -446,7 +447,7 @@ color:rgb(173, 173, 173);
 }
 
 .copyr {
-font-size:0.8em;
+font-size:0.7em;
 letter-spacing:0;
 color:rgb(141, 141, 141);
 }
