@@ -15,7 +15,7 @@ h2 {
 h3 {
     color:rgb(87, 119, 87);
     letter-spacing:1px;
-    font-size:1.5em;
+    font-size:2em;
 }
 
 
@@ -25,18 +25,16 @@ h3 {
     color:rgb(70, 68, 68);  
     padding-bottom:70px;    
     background-color:rgb(183, 204, 183);
-padding-top:60px;  
+padding-top:75px;  
  display:block;  
       width:100%;  
       margin-left:auto;
       margin-right:auto; 
-      line-height:1.6;
     }
 
 #contactdetails {
-  width:85%;
-    margin-top:-60px;
-    margin-bottom:30px;
+  width:90%;
+  
 }
 
 
@@ -48,9 +46,10 @@ padding-top:60px;
   color:rgb(46, 45, 45);
        margin-left:auto;
        margin-right:auto;     
-     padding-bottom:50px; 
-    width:90%;     
-    font-size:25px;
+     padding-top:30px; 
+    width:90%;  
+    margin-top:-20px;  
+    font-size:20px;
 } 
 
 
@@ -62,17 +61,15 @@ padding-top:60px;
  
 
 #map {   
-    margin-top:30px;
-    text-align:center; 
-    margin-bottom:0;
+    
+    text-align:center;       
    
 }
 
 
 
 iframe {   
-    margin-top:20px;  
-    margin-bottom:0;
+    margin-top:20px;   
 }
 
 
@@ -124,7 +121,7 @@ iframe {
    margin-left:-40px;
    resize:none;   
    background-color: #ececec;
-   height:450px;
+   height:650px;
   }
 
   button {
