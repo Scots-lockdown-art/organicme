@@ -1,21 +1,18 @@
 
-#one {    
-    display:flex;   
-    flex-wrap:wrap;
-    justify-content: center;  
-    width:75%;      
+#one {        
+    width:95%;      
     color:rgb(158, 209, 233);     
-    margin-bottom:275px;   
+    margin-bottom:220px;   
     margin-left:auto;
     margin-right:auto;
-    margin-top:140px;           
+    margin-top:300px;           
   }
       
 
   .offer {
-    font-size:2vh;
+    font-size:2em;
     display:flex;
-    color:rgb(97, 97, 97);  
+    color:rgb(59, 59, 59);  
     justify-content: center; 
     font-weight:normal;
     font-style:italic;
@@ -25,20 +22,24 @@
   .imageContainer {          
   background-color: rgba(255, 255, 255, 0.644); 
   flex-wrap:wrap;
-   display:flex;
+   display:block;
    justify-content: center;
     flex: 1 1 5px;   
     margin:20px;          
     width:auto;
-    min-width:300px;
-    max-width:350px;        
+    width:60%;        
    text-align:center;   
+       margin-left:auto;
+    margin-right:auto;
+      padding-top:20px;
+      padding-bottom:20px;
   }
 
   .test2 a {
-    color:rgb(114, 114, 114);
+    color:rgb(56, 56, 56);
     text-decoration:none;
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
+      font-size:2em;
 
   }
 
@@ -48,7 +49,7 @@
  padding-bottom:20px;
   padding-top:20px;
   margin-bottom:10px;
-  color:rgb(114, 114, 114);
+    color:rgb(56, 56, 56);
 }
 
   .test {      
@@ -69,7 +70,7 @@
 
    
 h3 {
-    font-size:3vh;
+    font-size:3em;
     color:rgba(9, 49, 16, 0.712);
     text-align:center;
   }

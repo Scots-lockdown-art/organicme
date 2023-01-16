@@ -1,8 +1,5 @@
 #food {
-margin-top:20px;
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
+margin-top:280px;
 }
 
 h3 {
@@ -12,20 +9,15 @@ h3 {
 
 .foodContainer {   
     padding-top:0px;
-    padding-bottom:0px;
+    padding-bottom:20px;
     margin-bottom:50px;
-    margin-top:30px;  
-    flex-wrap:wrap;
-    display:flex;
-    justify-content: center; 
-    flex-direction: column; 
-    margin-left:20px;
-    margin-right:20px;
+    margin-top:30px;   
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;  
-    background-color:rgb(192, 218, 199);
-    max-width:500px;
+    background-color:rgb(192, 218, 199);   
     color:rgb(85, 85, 85);
-    max-height:700px;
+    width:80%; 
    
 }
 
@@ -35,14 +27,16 @@ h3 {
     width:80%;
     margin-left:auto;
     margin-right:auto;  
+    font-size:25px;
 }
 
-.foodImage {
-    height:350px;      
-    }
+.imageSize {
+ width:100%;
+ 
+}
 
 .foodButton {
-    background-color:rgb(192, 218, 199); 
+    background-color:rgb(192, 218, 199);
     
 }  
 
@@ -67,7 +61,3 @@ button {
     text-decoration: line-through;
   }
 
-.imageSize {
-height:350px;
-width:500px;
-}

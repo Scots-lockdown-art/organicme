@@ -1,105 +1,76 @@
 
+
 #input {
     margin-left:10px;    
 }
 
-.iframe1 {
-display:inline;
-}
-
-#footer2 {
-  display:none;
-}
-
-
-@media   (min-width: 1201px) { 
-
-  #footer2 {
-    display:none;
-  }
-  
-  
-  #one {    
-    margin-top:-60px;         
-    display:flex;
-    flex-wrap:wrap;    
-    color:rgb(70, 68, 68);   
-    padding-bottom:70px;
-    justify-content:center;
-    background-color:rgb(183, 204, 183);
-padding-top:60px;
-
-}
-
-  #space {
-    margin-top:120px;
-  }
-
-#space2 {
-  margin-top:80px;
-}
-
-
-#contactDetails {
-   flex: 1 1 50px; 
-    margin-left:30px;
-    min-width:700px;   
-   
-}
-
-#address {
-    text-align:center;
-   
-}
-
-#map {   
-    height:800px;     
-   min-width:400px;
-    flex: 1 1 50px;
-    text-align:center;    
-}
-
-}
 
 h2 {
     text-align:center;
     color:rgb(255, 255, 255);
     letter-spacing:2px;
+    font-size:4em;
 }
 
 h3 {
     color:rgb(87, 119, 87);
     letter-spacing:1px;
+    font-size:2em;
 }
 
-#contact {    
-    height:800px;    
-    min-width:400px;
-    flex: 1 1 50px;  
-    text-align:center;
-    font-size:2.5vh;
-    
+
+  #one {    
+    margin-top:-60px;   
+    margin-bottom:0px;          
+    color:rgb(70, 68, 68);  
+    padding-bottom:70px;    
+    background-color:rgb(183, 204, 183);
+padding-top:75px;  
+ display:block;  
+      width:100%;  
+      margin-left:auto;
+      margin-right:auto; 
     }
+
+#contactdetails {
+  width:90%;
+    padding-top:20px;
+  
+}
+
+
+ form {   
+  background-color:rgba(105, 139, 105, 0.329);    
+  height:auto;   
+  padding:20px;    
+ 
+  color:rgb(46, 45, 45);
+       margin-left:auto;
+       margin-right:auto;     
+     padding-top:30px; 
+    width:90%;  
+    margin-top:-30px;  
+    font-size:20px;
+} 
+
+
+#address {
+    text-align:center;
+    margin-top:100px;
+   
+}
+ 
+
+#map {   
+    
+    text-align:center;       
+   
+}
+
+
 
 iframe {   
     margin-top:20px;   
-}
-
-
-
-form {   
-    background-color:rgba(105, 139, 105, 0.329);    
-    height:auto;   
-    padding:20px;   
-    margin-top:0px;
-    margin-bottom:auto;      
-    padding-top:50px;
-    color:rgb(46, 45, 45);
-         margin-left:auto;
-         margin-right:auto;     
-       padding-top:30px; 
-      width:80%;      
-   
 }
 
 
@@ -126,7 +97,7 @@ form {
    {
     background-color: #ececec;
     color: rgb(15, 15, 15);
-    padding: 12px 20px;
+    padding: 28px 42px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -134,24 +105,24 @@ form {
   }
 
   label {
-    padding: 12px 12px 12px 0;
+    padding: 24px 24px 24px 0;
     display: inline-block;
     letter-spacing:1px;
   }
 
   input, select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 20px;
     border: none;
     border-radius: 4px;   
   }
 
   #message {
    width:100%;
-   margin-left:-25px;
+   margin-left:-40px;
    resize:none;   
    background-color: #ececec;
-   height:225px;
+   height:650px;
   }
 
   button {
@@ -163,6 +134,7 @@ form {
     font-weight:bold; 
     cursor:pointer;
     letter-spacing:1px;
+    font-size:20px;
       }
 
 button:hover {
@@ -175,9 +147,9 @@ button:hover {
   }
 
   .anchor {
-    color:rgb(82, 139, 177);
+    color:rgb(23, 133, 201);
     text-decoration:none;
-    letter-spacing: 0px;
+    
     
   }
 
@@ -189,41 +161,12 @@ button:hover {
     letter-spacing:1px;
   }
 
-  @media   (max-width: 1200px) { 
+ 
 
-    #one {    
-      margin-top:-60px;        
-      color:rgb(70, 68, 68);   
-      padding-bottom:70px;     
-      background-color:rgb(183, 204, 183);
-  padding-top:60px;
-  
-  }
 
  
-    
-    #contactDetails {
-       display:block;       
-       width:90%; 
-       
-       margin-left:auto;
-       margin-right:auto; 
-       
-    }
-    
-    #address {
-      display:block;
-        text-align:center;
-        margin-top:70px;
-       
-    }
-    
-    #map {   
-       margin-top:70px;
-        display:block;
-        text-align:center;    
-    }
-  }
+   
+ 
 
   
 
