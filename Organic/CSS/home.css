@@ -3,28 +3,20 @@ section {
   padding: 0;
 }
 
-.redoffer {
-    background-color: red;  
-    margin-left:auto;
-  margin-right:auto;
-  text-align:center;    
-  margin-bottom:-60px;
-     color: white;  
-  font-size: 3em;
-  width:90vw;
 
- 
-}
+
+
 
 #con1 {
   background-color:rgb(183, 204, 183); 
-  margin-top:-136px;
+  margin-top:0px;
   margin-bottom:100px;
   padding-bottom:40px;
   padding-top:15px;
   width:100%;
   margin-left:auto;
   margin-right:auto;
+  text-align:center;
 }
   
 #con2 {
@@ -62,8 +54,7 @@ section {
       }
       
       .textintro5 {
-        padding-top:25px;
-        margin-bottom:-48px;
+        padding-top:25px;        
         font-size: 3em;
         text-align:center;
         margin-left:10%;
@@ -87,6 +78,7 @@ margin-top:100px;
   text-align:center;
 }
 
+
 .onefor1 {
 
   width:20vw;
@@ -98,20 +90,6 @@ margin-top:100px;
 
 }
 
-
-.offerContainer {
-padding-bottom:40px;
-background-color:#EFEADD;
-padding-top:10px;
-margin-top:20px;
-width:90vw;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-margin-bottom:60px;
-}
-
-
 .offer {
 font-size:2vh;
 display:flex;
@@ -122,7 +100,7 @@ font-weight:bold;
 
 .offerContainer {
 padding-bottom:40px;
-background-color: white; 
+background-color:#EFEADD;
 padding-top:10px;
 margin-top:20px;
 width:90vw;
@@ -317,5 +295,3 @@ box-shadow: 3px 3px 2px rgb(82, 82, 82);
            
 
 
-
-  
