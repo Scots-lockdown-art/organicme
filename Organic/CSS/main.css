@@ -14,13 +14,20 @@ body {
     .main-header {
       display:flex;
   }
+      
+      #footer2 {
+          display:none;
 }
 
-/* small devices (phones, 1000px and down) */
+/* small devices ) */
+      
 @media only screen and (max-width: 800px) { 
     .main-header {
         display:none;
     }
+    
+    #footer { 
+        display:none;
   }
 
 .main-header {
