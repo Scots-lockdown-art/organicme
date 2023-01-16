@@ -68,7 +68,7 @@ section {
   width:19vw; 
   height:120px;
   margin-left:75px;  
-  margin-bottom:-160px;
+  margin-bottom:-190px;
 -webkit-transform:rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
@@ -81,8 +81,8 @@ section {
 .off30 {
   width:25vw; 
   height:180px;
-  margin-left:55px;  
-  margin-bottom:-170px;
+  margin-left:50px;  
+  margin-bottom:-220px;
   -webkit-transform:rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
