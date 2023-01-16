@@ -10,7 +10,7 @@
       
 
   .offer {
-    font-size:2vh;
+    font-size:2em;
     display:flex;
     color:rgb(59, 59, 59);  
     justify-content: center; 
@@ -70,7 +70,7 @@
 
    
 h3 {
-    font-size:3vh;
+    font-size:3em;
     color:rgba(9, 49, 16, 0.712);
     text-align:center;
   }
