@@ -66,34 +66,19 @@ section {
 
 .onefor1 {
   width:19vw; 
-  height:160px;
+  height:120px;
   margin-left:55px;  
-  margin-bottom:-220px;
+  margin-bottom:-170px;
 }
 
 
 .off30 {
   width:22vw; 
   height:140px;
-  margin-left:45px;  
-  margin-bottom:-220px;
+  margin-left:40px;  
+  margin-bottom:-200px;
 }
 
-
-.onefor2 {
-  width:19vw; 
-  height:160px;
-  margin-left:400px;  
-  margin-bottom:-220px;
-}
-
-
-.off32 {
-  width:22vw; 
-  height:140px;
-  margin-left:380px;  
-  margin-bottom:-220px;
-}
 
 .offer {
 font-size:2vh;
