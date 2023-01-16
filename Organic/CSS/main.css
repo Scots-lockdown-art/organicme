@@ -416,6 +416,10 @@ list-style:none;
 text-align:center;
 }
 
+.phone {
+  color:rgb(216, 215, 215);
+}
+
 
 
 .headcol {
@@ -444,6 +448,7 @@ color:rgb(173, 173, 173);
 .copyr {
 font-size:0.8em;
 letter-spacing:0;
+color:rgb(141, 141, 141);
 }
 
  }
