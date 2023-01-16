@@ -1,5 +1,3 @@
-#food {
-margin-top:20px;
 }
 
 h3 {
@@ -50,7 +48,6 @@ button {
     margin-left:auto;
     margin-right:auto; 
     border:none;  
-  font-size:25px;
   }
 
   button:hover {
@@ -61,5 +58,4 @@ button {
   #scoreout {
     text-decoration: line-through;
   }
-
 
