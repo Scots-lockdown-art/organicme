@@ -1,73 +1,327 @@
-#food {
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    }
+<!DOCTYPE html>
+<head><head>
+  <title>OrganicMe - Food</title>
+    <link rel="stylesheet" href="../../CSS/main.css">
+    <link rel="stylesheet" href="../../CSS/clothing.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+  </head>
+<body>
+
+  <header class="main-header" id="fadeHead">    
     
-    h3 {
-      text-align:center;
-      color:#5c7955;
-    }
+    <div class="logo"><img class="logoImage" src="../../IMG/orgmehead.png">   </div>
+    <nav>        
+  <ul> 
+    <li><a class="otherPages"  href="../index.html">Home</a>  </li>
+    <li><a class="otherPages" href="../aboutus.html">About Us</a></li> 
+    <li><a class="currentPage"href="../products.html">Products</a></li>
+    <li><a class="otherPages" href="../gardening.html">Gardening Course</a></li>            
+    <li><a class="otherPages" href="../contactus.html">Contact Us</a></li>                  
+   </ul>          
+  </nav>  
+  <div class="cart"><img class="cartImage" src="../../IMG/cart.png">   </div> 
+</header>	
+
+<header class="mobile-header"> 
+<div id="menu">    
+<div class="box box-1"><img class="logoImage2" src="../../IMG/orgmehead.png"></div>	
+<div class="box box-2">	
+ <input type="checkbox" id="nav-menu1">
+ <label class="ham" id="nav-icon1" for="nav-menu1">
+               <span></span>
+               <span></span>
+               <span></span>
+               </label>     
+         <nav class="navbar">
+           <ul>                        
+                 <li><a  href="../index.html">Home</a></li>
+                 <li><a  href="../aboutus.html">About Us</a></li>                      
+                 <li><a href="../products.html">Products</a></li>
+                 <li><a  href="../gardening.html">Gardening Course</a></li> 
+                 <li><a  href="../contactus.html">Contact Us</a></li>                                      
+             </ul>
+    </nav>
+  </div>     
+</div>
+</header>
+
+
+  <body>
     
-    .foodContainer {   
-        padding-top:0px;
-        padding-bottom:0px;
-        margin-bottom:50px;
-        margin-top:30px;  
-        flex-wrap:wrap;
-        display:flex;
-        justify-content: center; 
-        flex-direction: column; 
-        margin-left:20px;
-        margin-right:20px;
-        text-align:center;  
-        background-color:rgb(192, 218, 199);
-        max-width:500px;
-        color:rgb(85, 85, 85);
-        max-height:800px;
-       
-    }
+  
+  
+ <div class="clotmob">
+  
+ 
+  
+<section id="food">
+ <h3>ORGANIC CLOTHES</h3>
+  <div class="foodContainer">
+      <div class="foodImage"><img class="imageSize" src="../../IMG/jumpers.jpg"></div>
+      <div class="foodDescription"> <strong>ORGANIC JUMPERS</strong><br>
+      <p>Made from organic materials, remember to select correct colour and size below.</p>
+    </div>
+    <form >
+      <label for="cars">Choose colour:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="Navy">Navy</option>
+        <option value="purple">Purple</option>
+        <option value="cream">Cream</option>
+        <option value="green">Green</option>
+      </select>
+      <br><br>    
+    </form>
+    <form>
+      <label for="cars">Choose size:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="small">S</option>
+        <option value="medium">M</option>
+        <option value="large">L</option>
+        <option value="Xlarge">XL</option>
+      </select>
+      <br><br>    
+    </form>
+      <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£39.99</strong></p>
+    </div>
+  
+
+    <div class="foodContainer">
+      <div class="foodImage"><img class="imageSize" src="../../IMG/tshirt.jpg"></div>
+      <div class="foodDescription"> <strong>ORGANIC T-SHIRTS</strong><br>
+      <p>Made from organic materials. Show your support with these organic T-shirts.</p>
+    </div>
+    <form >
+      <label for="cars">Choose colour:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="white">White</option>
+        <option value="grey">Grey</option>
+      </select>
+      <br><br>    
+    </form>
+    <form>
+      <label for="cars">Choose size:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="small">S</option>
+        <option value="medium">M</option>
+        <option value="large">L</option>
+        <option value="Xlarge">XL</option>
+      </select>
+      <br><br>    
+    </form>
+      <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£19.99</strong></p>
+    </div>
+
+    <div class="foodContainer">
+      <div class="foodImage"><img class="imageSize" src="../../IMG/beanie.jpg"></div>
+      <div class="foodDescription"> <strong>ORGANIC BEANIE HAT</strong><br><p>Organic Beanie Hat comes in variety of colours and 2 sizes Regular/Large. </p>
+    </div>
+    <form >
+      <label for="cars">Choose colour:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="red">Red</option>
+      </select>
+      <br><br>    
+    </form>
+    <form>
+      <label for="cars">Choose size:</label>
+      <select name="tshirt" id="tshirt">
+        <option value="regular">R</option>
+        <option value="large">L</option>        
+      </select>
+      <br><br>    
+    </form>
+      <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£14.99</strong></p>
+    </div>
+
+
+</section>
+  
+  </div> 
+
+
+
+  <div class="clotdesk">
+
+
+
+
+    <h3>ORGANIC CLOTHES</h3>
+  
+    <section id="food">
     
-    .foodDescription {
-        padding-top:20px;
-        background-color:rgb(192, 218, 199);
-        width:80%;
-        margin-left:auto;
-        margin-right:auto;  
-    }
+      <div class="foodContainer">
+          <div class="foodImage"><img class="imageSize" src="../../IMG/jumpers.jpg"></div>
+          <div class="foodDescription"> <strong>ORGANIC JUMPERS</strong><br>
+          <p>Made from organic materials, remember to select correct colour and size below.</p>
+        </div>
+        <form >
+          <label for="cars">Choose colour:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="Navy">Navy</option>
+            <option value="purple">Purple</option>
+            <option value="cream">Cream</option>
+            <option value="green">Green</option>
+          </select>
+          <br><br>    
+        </form>
+        <form>
+          <label for="cars">Choose size:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="Xlarge">XL</option>
+          </select>
+          <br><br>    
+        </form>
+          <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£39.99</strong></p>
+        </div>
+      
     
-    .foodImage {
-        height:350px;      
-        }
+        <div class="foodContainer">
+          <div class="foodImage"><img class="imageSize" src="../../IMG/tshirt.jpg"></div>
+          <div class="foodDescription"> <strong>ORGANIC T-SHIRTS</strong><br>
+          <p>Made from organic materials. Show your support with these organic T-shirts.</p>
+        </div>
+        <form >
+          <label for="cars">Choose colour:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="white">White</option>
+            <option value="grey">Grey</option>
+          </select>
+          <br><br>    
+        </form>
+        <form>
+          <label for="cars">Choose size:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="Xlarge">XL</option>
+          </select>
+          <br><br>    
+        </form>
+          <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£19.99</strong></p>
+        </div>
     
-    .foodButton {
-        background-color:rgb(192, 218, 199); 
+        <div class="foodContainer">
+          <div class="foodImage"><img class="imageSize" src="../../IMG/beanie.jpg"></div>
+          <div class="foodDescription"> <strong>ORGANIC BEANIE HAT</strong><br><p>Organic Beanie Hat comes in variety of colours and 2 sizes Regular/Large. </p>
+        </div>
+        <form >
+          <label for="cars">Choose colour:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="red">Red</option>
+          </select>
+          <br><br>    
+        </form>
+        <form>
+          <label for="cars">Choose size:</label>
+          <select name="tshirt" id="tshirt">
+            <option value="regular">R</option>
+            <option value="large">L</option>        
+          </select>
+          <br><br>    
+        </form>
+          <div class="foodButton"><button>ADD TO CART</button></div><p><strong>£14.99</strong></p>
+        </div>
+    
+    
+    </section>
+
+
+
+  </div>
+
+
+
+<section id="footer">
+
+  <div class="copy">
+     <p>USEFUL LINKS</p>           
+
+       <ul> 
+         <li>  <a href="../html/contactus.html">Contact Us</a></li>
+     <li><a title="www.visitkelso.com" href="https://www.visitkelso.com/">Visit Kelso</a></li>
+     <li><a href="https://www.historicenvironment.scot/visit-a-place/places/kelso-abbey/">Kelso Abbey</a></li>
+     <li><a href="https://bordersorganicgardeners.org/">Borders Organic Gardeners</a></li>
+   </ul>       
+         
+   </div>
         
-    }  
-    
-    button {   
-        background-color: #f3ce68;     
-        color: rgb(66, 66, 66);
-        padding: 16px 40px;    
-        text-decoration: none;    
-        font-size: 1.5h; 
-        font-weight:bold;     
-        margin-left:auto;
-        margin-right:auto; 
-        border:none;  
-      }
-    
-      button:hover {
-        background-color:#dab246;
-        cursor:pointer;
-      }
-    
-      #scoreout {
-        text-decoration: line-through;
-      }
-    
-    .imageSize {
-    height:350px;
-    width:500px;
-    }
+   
+    <div id="icons"> 
+         <a href='https://www.twitter.com'><img class="footimsize" src="../../IMG/flof.png"></a> 
+         <a href='https://www.twitter.com'><img class="footimsize2" src="../../IMG/inspn.png"></a>
+         <a href='https://www.twitter.com'><img class="footimsize3" src="../../IMG/twitr.png"></a> 
+</div>
+       
+  
+   
+   <div class="contdets">
+     <p class="headcol">CONTACT DETAILS</p>
+      <p class="footadd">ORGANIC ME<br>
+     24 Kelso High Street<br>
+   Kelso<br>
+ Scotland<br>
+ UK<br>
+ KS15 3TS</p>
+ <a class="phone" href="tel:075423298">075423298</a><br>
+</div> 
+
+<br><br>
+
+   <div class="copy"><p class="copyr"> &copy; Copyright, 2022.</p></div> 
+
+         </section>
+
+        
+<section id="footer2">
+           <div class="footbar2">
+             <div class="copy2">
+               <p>USEFUL LINKS</p>
+               <ul>
+                 <li>
+               <a href="../../html/contactus.html">Contact Us</a></li>
+               <li><a title="www.visitkelso.com" href="https://www.visitkelso.com/">Visit Kelso</a></li>
+               <li><a href="https://www.historicenvironment.scot/visit-a-place/places/kelso-abbey/">Kelso Abbey</a></li>
+               <li><a href="https://bordersorganicgardeners.org/">Borders Organic Gardeners</a></li></ul>
+               <br>    
+               <p class="copyr2"> &copy; Copyright, 2022.</p></div> 
+             <div id="icons2">       <a href='https://www.twitter.com'><img class="footimsize1" src="../../IMG/flof.png"></a>
+               <a href='https://www.twitter.com'><img class="footimsize21" src="../../IMG/inspn.png"></a>
+               <a href='https://www.twitter.com'><img class="footimsize31" src="../../IMG/twitr.png"></a> 
+         
+                 
+             
+                
+               
+             </div>
+             <div id="contdet2">
+               <p class="headcol2">CONTACT DETAILS</p>
+                <p>ORGANIC ME<br>
+               24 Kelso High Street<br>
+             Kelso<br>
+           Scotland<br>
+           UK<br>
+           KS15 3TS</p>
+           <a href="tel:075423298">075423298</a><br></div> 
+             </div>
+                   </section>   
+                    
+  
+          <script src="https://code.jquery.com/jquery-3.2.1.js"></script>           
+      <script src="js/index.js"></script>
+      <script type="text/javascript" src="../../JS/navbar.js"></script>
+    </body>
+  </html>
