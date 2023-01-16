@@ -79,6 +79,22 @@ section {
   margin-bottom:-220px;
 }
 
+
+.onefor2 {
+  width:19vw; 
+  height:160px;
+  margin-left:400px;  
+  margin-bottom:-220px;
+}
+
+
+.off32 {
+  width:22vw; 
+  height:140px;
+  margin-left:380px;  
+  margin-bottom:-220px;
+}
+
 .offer {
 font-size:2vh;
 display:flex;
