@@ -68,20 +68,21 @@ section {
   width:19vw; 
   height:120px;
   margin-left:75px;  
-  margin-bottom:-180px;
+  margin-bottom:-160px;
 -webkit-transform:rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
   -o-transform: rotate(-15deg);
   transform: rotate(-15deg);
+
 }
 
 
 .off30 {
   width:25vw; 
   height:180px;
-  margin-left:60px;  
-  margin-bottom:-200px;
+  margin-left:55px;  
+  margin-bottom:-170px;
   -webkit-transform:rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
