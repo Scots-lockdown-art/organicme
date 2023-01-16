@@ -67,15 +67,16 @@ section {
 .onefor1 {
   width:19vw; 
   height:120px;
-  margin-left:55px;  
+  margin-left:65px;  
   margin-bottom:-170px;
+  transform: rotate(-15deg);
 }
 
 
 .off30 {
-  width:22vw; 
-  height:140px;
-  margin-left:40px;  
+  width:23vw; 
+  height:170px;
+  margin-left:50px;  
   margin-bottom:-200px;
 }
 
