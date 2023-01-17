@@ -24,15 +24,16 @@ h3 {
 
 
   #one {    
-    margin-top:-60px;              
+    margin-top:-0px;              
     color:rgb(70, 68, 68);  
     padding-bottom:70px;    
     background-color:rgb(183, 204, 183);
-padding-top:75px;  
+padding-top:55px;  
  display:block;  
       width:100%;  
       margin-left:auto;
       margin-right:auto; 
+      margin-top:-50px;
     }
 
 #contactdetails {
