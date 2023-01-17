@@ -13,7 +13,7 @@
     margin-bottom:220px;   
     margin-left:auto;
     margin-right:auto;
-    margin-top:250px;           
+    margin-top:280px;           
   }
       
 
@@ -48,7 +48,8 @@
  padding-bottom:20px;
   padding-top:20px;
   margin-bottom:10px;
-  color:rgb(48, 47, 47);
+  color:rgb(32, 32, 32);
+  font-size:2em;
 }
 
   .test {      
@@ -86,7 +87,6 @@ h3 {
   .mobpro {
     display:none;
   }
-
 
 
   
