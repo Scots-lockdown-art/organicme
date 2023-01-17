@@ -26,7 +26,7 @@ h3 {
   flex-wrap:wrap;
   justify-content:space-between;  
   width:100%;      
-  color:rgb(51, 51, 51);     
+ color:rgb(63, 63, 63);    
   margin-bottom:0px;   
   margin-left:auto;
   margin-right:auto;
@@ -175,7 +175,7 @@ button {
 
 .textAbout {
 margin-top:0px;
-  line-height:1.4;
+  line-height:1.6;
   font-size:1em;
   padding-top:15px;
   text-align: justify;
