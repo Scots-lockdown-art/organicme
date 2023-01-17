@@ -249,7 +249,7 @@ padding-left:30px;
  color:#1a1a1a;
  flex-wrap:nowrap;
  flex: 1 1 auto;
- height:200px;	
+ height:150px;	
  padding-top:10px;	
  z-index:1200;    
  position: fixed;
@@ -273,14 +273,14 @@ padding-left:30px;
  }  
 
 .logoImage2 {      
-   height:170px;
+   height:125px;
    max-width:auto;      
 }
       
 .ham {    
   margin-left:70px;  
  z-index: 1000;	
- margin-top:70px;   
+ margin-top:40px;   
  border: none;
  cursor: pointer;   
  }
