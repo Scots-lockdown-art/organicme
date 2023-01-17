@@ -26,7 +26,7 @@ h3 {
   flex-wrap:wrap;
   justify-content:space-between;  
   width:100%;      
- color:rgb(63, 63, 63);    
+  color:rgb(51, 51, 51);     
   margin-bottom:0px;   
   margin-left:auto;
   margin-right:auto;
@@ -130,9 +130,8 @@ button {
   text-align:center;
   font-style:italic;
   margin-left:auto;
-  margin-right:auto; 
-   line-height:1.6;
-  font-size:1.5em;
+  margin-right:auto;
+  font-size:1em;
   
 }
 
@@ -144,9 +143,7 @@ button {
   width:100%;
   padding-top:40px;
   padding-bottom:25px;
-    background-color:rgb(183, 204, 183); 
-  color:rgb(56, 56, 56);
-  
+    background-color:rgb(183, 204, 183);  
  
   }
 
@@ -178,7 +175,7 @@ button {
 
 .textAbout {
 margin-top:0px;
-  line-height:1.6;
+  line-height:1.4;
   font-size:1em;
   padding-top:15px;
   text-align: justify;

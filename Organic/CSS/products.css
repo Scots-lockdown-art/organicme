@@ -1,16 +1,24 @@
+@media only screen and (max-width: 999px) {  
 
-#one {        
-    width:95%;      
+  .deskpro {
+    display:none;
+  }
+
+#one {    
+    display:flex;   
+    flex-wrap:wrap;
+    justify-content: center;  
+    width:75%;      
     color:rgb(158, 209, 233);     
     margin-bottom:220px;   
     margin-left:auto;
     margin-right:auto;
-    margin-top:300px;           
+    margin-top:200px;           
   }
       
 
   .offer {
-    font-size:2em;
+    font-size:2vh;
     display:flex;
     color:rgb(59, 59, 59);  
     justify-content: center; 
@@ -22,24 +30,20 @@
   .imageContainer {          
   background-color: rgba(255, 255, 255, 0.644); 
   flex-wrap:wrap;
-   display:block;
+   display:flex;
    justify-content: center;
     flex: 1 1 5px;   
     margin:20px;          
     width:auto;
-    width:60%;        
+    min-width:300px;
+    max-width:350px;        
    text-align:center;   
-       margin-left:auto;
-    margin-right:auto;
-      padding-top:20px;
-      padding-bottom:20px;
   }
 
   .test2 a {
     color:rgb(56, 56, 56);
     text-decoration:none;
-    letter-spacing: 3px;
-      font-size:2em;
+    letter-spacing: 3px; 
 
   }
 
@@ -49,7 +53,7 @@
  padding-bottom:20px;
   padding-top:20px;
   margin-bottom:10px;
-    color:rgb(56, 56, 56);
+  color:rgb(114, 114, 114);
 }
 
   .test {      
@@ -70,9 +74,100 @@
 
    
 h3 {
-    font-size:3em;
+    font-size:3vh;
     color:rgba(9, 49, 16, 0.712);
     text-align:center;
   }
 
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {  
+
+  .mobpro {
+    display:none;
+  }
+
+
+
   
+#one {    
+  display:flex;   
+  flex-wrap:wrap;
+  justify-content: center;  
+  width:75%;      
+  color:rgb(158, 209, 233);     
+  margin-bottom:275px;   
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:140px;           
+}
+    
+
+.offer {
+  font-size:2vh;
+  display:flex;
+  color:rgb(97, 97, 97);  
+  justify-content: center; 
+  font-weight:normal;
+  font-style:italic;
+  line-height:1.5;    
+}
+
+.imageContainer {          
+background-color: rgba(255, 255, 255, 0.644); 
+flex-wrap:wrap;
+ display:flex;
+ justify-content: center;
+  flex: 1 1 5px;   
+  margin:20px;          
+  width:auto;
+  min-width:300px;
+  max-width:350px;        
+ text-align:center;   
+}
+
+.test2 a {
+  color:rgb(114, 114, 114);
+  text-decoration:none;
+  letter-spacing: 3px; 
+
+}
+
+.test2 {
+background-color:rgb(192, 218, 199);
+width:100%;
+padding-bottom:20px;
+padding-top:20px;
+margin-bottom:10px;
+color:rgb(114, 114, 114);
+}
+
+.test {      
+  color:rgb(241, 241, 241);   
+}
+
+.imageContainer:hover {
+    opacity:50%;
+    cursor:pointer;
+}
+
+.offerImage {
+  height:250px;      
+  margin-left:auto;
+  margin-right:auto; 
+  width:100%;            
+}
+
+ 
+h3 {
+  font-size:3vh;
+  color:rgba(9, 49, 16, 0.712);
+  text-align:center;
+}
+
+}

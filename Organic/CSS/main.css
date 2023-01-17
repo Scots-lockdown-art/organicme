@@ -1,9 +1,9 @@
 body {
   font-family:"Monsterrat", sans-serif;
-  font-size: 14pt;
-  margin:0;
+  font-size:16px;
+    margin:0;
   padding:0;
-  background-color:white;
+  background-color:rgb(253, 252, 240);
 }
 
 @media only screen and (min-width: 1000px) {  

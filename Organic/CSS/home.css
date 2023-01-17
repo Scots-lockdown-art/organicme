@@ -47,7 +47,7 @@ section {
     
       }
 
-  .textintro {
+      .textintro {
         padding-top:100px; 
         margin-bottom:0px; 
         font-size:4em;
@@ -63,7 +63,6 @@ section {
         margin-right:10%;
         color:rgb(0, 63, 14);       
       }
-      
       
 
 
@@ -84,6 +83,7 @@ section {
   margin-left:50px;  
   margin-bottom:-210px;
 }
+
 
 
 .offer {
