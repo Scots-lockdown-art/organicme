@@ -36,7 +36,7 @@ h3 {
 
 .infotext {
     width:85%;
-    text-align:justify;    
+    text-align:center;    
     margin-left:auto;
     margin-right:auto;
     color:rgb(63, 63, 63);
@@ -125,7 +125,7 @@ h3 {
     
     .infotext {
         width:65%;
-        text-align:justify;    
+        text-align:center;    
         margin-left:auto;
         margin-right:auto;
         color:rgb(27, 27, 27);
@@ -164,29 +164,9 @@ h3 {
         text-align:center;
     }
     
-    #bees {
-        width:80%;
-        height:800px;
-        margin-left:auto;
-        margin-right:auto;
-        background-image:url("../IMG/bees.jpg");
-        background-size: cover;
-        background-position: center;
-        margin-bottom:100px;
-    }
-    
-    
-    
-    @media   (max-width: 1400px) { 
-    
-        .fourpics {      
-              width:80%;
-              padding-bottom:1%;          
-             
-        }
-          
+
+        
     
     
     
     }
-}
