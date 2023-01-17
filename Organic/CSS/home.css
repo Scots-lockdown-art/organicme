@@ -71,19 +71,19 @@ section {
 
 
 .onefor1 {
-  width:19vw; 
-  height:120px;
-  margin-left:75px;  
-  margin-bottom:-195px;
+  width:14vw; 
+  height:90px;
+  margin-left:165px;  
+  margin-bottom:-145px;
   transform: rotate(-15deg);
 }
 
 
 .off30 {
-  width:22vw; 
-  height:140px;
-  margin-left:55px;  
-  margin-bottom:-210px;
+  width:17vw; 
+  height:100px;
+  margin-left:155px;  
+  margin-bottom:-150px;
   transform: rotate(-15deg);
 }
 
@@ -102,7 +102,7 @@ padding-bottom:40px;
 background-color:#EFEADD;
 padding-top:10px;
 margin-top:20px;
-width:90vw;
+width:65vw;
 margin-left:auto;
 margin-right:auto;
 text-align:center;
@@ -115,8 +115,8 @@ h6 {
 }
 
 .offerImage {  
-  width: 85vw;
-  height:550px;  
+  width: 60vw;
+  height:450px;  
 margin-left:auto;
 margin-right:auto; 
 margin-top:-20px;  
@@ -162,7 +162,7 @@ padding-top:0px;
 }
 
 .from {  
-  color:black;
+  color:rgb(0, 0, 0);
 }
 
 

@@ -199,8 +199,9 @@ padding-left:30px;
       margin:4px;
       height: 9px;
       width:60px;
-      background: #353d34;
-      border-radius: 9px;        
+      background: #0b4e02;
+      border-radius: 9px; 
+      color:rgb(2, 83, 2);       
     }      
     #nav-menu1:checked ~ #nav-icon1 span:nth-child(1){
       -webkit-transform: rotate(135deg) translate(21px,-13px);
@@ -249,11 +250,12 @@ padding-left:30px;
  color:#1a1a1a;
  flex-wrap:nowrap;
  flex: 1 1 auto;
- height:150px;	
+ height:180px;	
  padding-top:10px;	
  z-index:1200;    
  position: fixed;
- top:0;   
+ top:0;  
+ box-shadow: 1px 4px #c9c8a3; 
  }   
  
  .box {
@@ -273,14 +275,14 @@ padding-left:30px;
  }  
 
 .logoImage2 {      
-   height:125px;
+   height:150px;
    max-width:auto;      
 }
       
 .ham {    
   margin-left:70px;  
  z-index: 1000;	
- margin-top:40px;   
+ margin-top:60px;   
  border: none;
  cursor: pointer;   
  }
