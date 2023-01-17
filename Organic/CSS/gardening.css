@@ -8,7 +8,7 @@
 
 h2 {
   text-align:center;
-  font-size:3em;
+  font-size:2.5em;
   color:white;
    margin-left:auto;
   margin-right:auto;
@@ -18,7 +18,7 @@ h2 {
 h3 {
   color:rgb(1, 82, 28);
   text-align:center;
-  font-size:2.5em;
+  font-size:2em;
 }
 
 #container1 {
@@ -26,7 +26,7 @@ h3 {
   flex-wrap:wrap;
   justify-content:space-between;  
   width:100%;      
-  color:white;     
+  color:rgb(51, 51, 51);     
   margin-bottom:0px;   
   margin-left:auto;
   margin-right:auto;
@@ -131,7 +131,7 @@ button {
   font-style:italic;
   margin-left:auto;
   margin-right:auto;
-  font-size:2em;
+  font-size:1em;
   
 }
 
@@ -167,8 +167,7 @@ button {
 #aboutgarden {
   display:block;  
    width:90%;
-  margin-bottom:75px;
-  
+  margin-bottom:75px;  
   margin-left:auto;
   margin-right:auto;
    
@@ -177,7 +176,7 @@ button {
 .textAbout {
 margin-top:0px;
   line-height:1.4;
-  font-size:2em;
+  font-size:1em;
   padding-top:15px;
   text-align: justify;
 
