@@ -21,7 +21,7 @@ h3 {
 
   #one {    
     margin-top:-60px;   
-    margin-bottom:0px;          
+    margin-bottom:30px;          
     color:rgb(70, 68, 68);  
     padding-bottom:70px;    
     background-color:rgb(183, 204, 183);
@@ -62,7 +62,7 @@ padding-top:75px;
  
 
 #map {   
-    
+    margin-top:30px;
     text-align:center;       
    
 }
