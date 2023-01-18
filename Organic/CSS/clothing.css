@@ -1,6 +1,10 @@
 
 @media only screen and (max-width: 999px) { 
 
+  .cloprice {
+    font-size:2em;
+  }
+
   .clotdesk {
     display:none;
   
@@ -49,13 +53,12 @@ form {
 }
 
 #tshirt {
-  font-size:2em;
+  font-size:1em;
 }
 
 .foodButton {
     background-color:rgb(192, 218, 199);
-    font-size:3em;
-    
+       
 }  
 
 button {   
