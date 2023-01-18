@@ -212,7 +212,7 @@ table {
   background-color:rgb(243, 238, 168);
   border-collapse: collapse;
   text-align:center;
-  font-size:1.5em;
+  font-size:2em;
   margin-left:auto;
   margin-right:auto;
 }
@@ -240,8 +240,8 @@ background-color:rgb(214, 214, 169);
 }
 
 .signtxt {
-  font-size:1em;
-  line-height:1.4;
+  font-size:0.8em;
+  line-height:1.2;
   text-align:center;
   padding-left:40px;
   padding-right:40px;
