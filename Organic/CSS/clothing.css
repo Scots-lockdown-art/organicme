@@ -36,7 +36,7 @@ h3 {
     width:80%;
     margin-left:auto;
     margin-right:auto;  
-    font-size:25px;
+    font-size:2em;
 }
 
 .imageSize {
@@ -44,8 +44,13 @@ h3 {
  
 }
 
+form {
+  font-size:2em;
+}
+
 .foodButton {
     background-color:rgb(192, 218, 199);
+    font-size:2em;
     
 }  
 
@@ -54,11 +59,11 @@ button {
     color: rgb(66, 66, 66);
     padding: 16px 40px;    
     text-decoration: none;    
-    font-size: 1.5h; 
-    font-weight:bold;     
+       font-weight:bold;     
     margin-left:auto;
     margin-right:auto; 
     border:none;  
+    margin-bottom:20px;
   }
 
   button:hover {
@@ -137,6 +142,7 @@ button {
         margin-left:auto;
         margin-right:auto; 
         border:none;  
+        margin-bottom:20px;
       }
     
       button:hover {
