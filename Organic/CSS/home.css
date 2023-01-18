@@ -165,12 +165,13 @@ padding-top:0px;
 
 .from {  
   color:rgb(0, 0, 0);
+  font-size:1em;
 }
 
 
 .productContainer {  
-  width:75%; 
-  max-width:75%;  
+  width:70%; 
+  max-width:70%;  
   text-align:center;
   margin-left:auto;
 margin-right:auto;
@@ -184,7 +185,7 @@ background-color:#EFEADD;
 margin-top:0;
 padding-top:5px;   
   font-size:1.5em;
-  width:70vw;   
+  width:65vw;   
   margin-left:auto;
 margin-right:auto;
   text-align:center;
@@ -206,8 +207,8 @@ letter-spacing: 1.5px;
 
 .recImage {
 margin-top:-10px;
-height:550px; 
- width:70vw;
+height:500px; 
+ width:65vw;
 display:block; 
 margin-bottom:0px;  
   text-align:center;
