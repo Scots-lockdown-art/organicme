@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  color:rgb(1, 82, 28);
+  color:rgb(73, 100, 73);
   text-align:center;
   font-size:2em;
 }
@@ -256,8 +256,9 @@ background-color:rgb(214, 214, 169);
   
   .signtxt {
     font-size:1.5em;
-    line-height:1.4;
+    line-height:1.2;
     text-align:center;
+    color:rgb(85, 85, 85);
   }
 
   .changelink {
@@ -281,14 +282,14 @@ background-color:rgb(214, 214, 169);
   }
 
   h3 {
-    color:rgb(238, 236, 236);
+    color:rgb(73, 100, 73);
     text-align:center;
     font-size:3em;
   }
 
   h4 {
     text-align:center;
-    color:rgb(241, 241, 241);
+    color:rgb(73, 100, 73);
     font-size:3em;
 }
 
