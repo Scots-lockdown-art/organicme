@@ -91,10 +91,50 @@ h3 {
     margin-bottom:100px;
 }
 
+.ablink {
+    color:green;
+    
+}
+
+.ablink:hover {
+    color:grey;
+}
+
+.centertxt {
+    text-align:center;
+}
+
+.youtube {
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.centlink {
+    text-align:center;
+}
+
+
 
 }
 
 @media only screen and (min-width: 1000px) {  
+
+    .centlink {
+        text-align:center;
+    }
+
+    .youtube {
+        text-align:center;
+        margin-top:30px;
+        margin-bottom:50px;
+    }
+    
+
+    .centertxt {
+        text-align:center;
+    }
+    
 
     .aboutmob {
         display:none;
@@ -110,17 +150,27 @@ h3 {
         padding-left:25px;
         padding-right:25px;    
         color:black;
+        font-size:2em;
+    }
+
+    .ablink {
+        color:green;
+    }
+
+    .ablink:hover {
+        color:grey;
     }
     
     h3 {
         text-align:center;    
-        color:rgb(114, 114, 114);
+        color:rgb(97, 97, 97);
         background-color:rgb(192, 218, 199);
         width:70%;
         margin-left:auto;
         margin-right:auto;
-        padding:5px;
+        padding:7px;
         font-weight: normal;
+        font-size:2em;
     }
     
     .infotext {
@@ -129,6 +179,8 @@ h3 {
         margin-left:auto;
         margin-right:auto;
         color:rgb(27, 27, 27);
+        font-size: 1.5em;
+        line-height:1.5;
     }
     
     
@@ -164,9 +216,29 @@ h3 {
         text-align:center;
     }
     
-
-        
+    #bees {
+        width:80%;
+        height:800px;
+        margin-left:auto;
+        margin-right:auto;
+        background-image:url("../IMG/bees.jpg");
+        background-size: cover;
+        background-position: center;
+        margin-bottom:100px;
+    }
+    
+    
+    
+    @media   (max-width: 1400px) { 
+    
+        .fourpics {      
+              width:80%;
+              padding-bottom:1%;          
+             
+        }
+          
     
     
     
     }
+}

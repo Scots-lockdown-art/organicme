@@ -198,11 +198,74 @@ color:rgb(46, 45, 45);
   margin-right:auto;
 }
 
+#prices {
+  text-align:center;
+ margin-top:-20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+
+}
+
+table {
+  padding:20px;
+  background-color:rgb(243, 238, 168);
+  border-collapse: collapse;
+  text-align:center;
+  font-size:1.5em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td, th {
+  border:1px solid black;
+  padding:15px;   
+
+}
+
+th {
+background-color:white;
+}
+
+.changecolor {
+background-color:rgb(214, 214, 169);
+}
+
+.changelink {
+  color:rgb(17, 102, 17);
+}
+
+.changelink:hover {
+  color:grey;
+}
+
+.signtxt {
+  font-size:1em;
+  line-height:1.4;
+  text-align:center;
+  padding-left:40px;
+  padding-right:40px;
+}
+
 
 }
 
 
-@media only screen and (min-width: 1000px) {  
+@media only screen and (min-width: 1000px) { 
+  
+  .signtxt {
+    font-size:1.5em;
+    line-height:1.4;
+    text-align:center;
+  }
+
+  .changelink {
+    color:rgb(17, 102, 17);
+  }
+  
+  .changelink:hover {
+    color:grey;
+  }
 
   .mobgard {
     display:none;
@@ -325,7 +388,7 @@ button {
         background-color:rgba(105, 139, 105, 0.329);    
         height:auto;   
         padding:20px;   
-        margin-top:0px;
+        margin-top:40px;
         margin-bottom:auto;      
         padding-top:50px;
         color:rgb(46, 45, 45);            
@@ -336,7 +399,8 @@ button {
 
 
 #signup {
-    flex:1 1 50px;    
+    flex:1 1 50px;   
+    
 }
 
 
@@ -378,7 +442,6 @@ button {
 
 
 
-
 #tests{   
   margin-top:0;
   width:100%;
@@ -387,5 +450,30 @@ button {
     background-color:rgb(183, 204, 183);  
  
   }
+
+  table {
+    padding:20px;
+    background-color:rgb(243, 238, 168);
+    border-collapse: collapse;
+    text-align:center;
+    font-size:1.5em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  td, th {
+    border:1px solid black;
+    padding:15px;   
+
+  }
+  
+  th {
+  background-color:white;
+}
+
+.changecolor {
+  background-color:rgb(214, 214, 169);
+}
+
 
 }

@@ -346,9 +346,9 @@ padding-left:30px;
   
  {
 
-#footer {
-font-size:1em;
-  padding: 2em;
+#footer2 {
+font-size:1.2em;
+  padding-bottom:50px;
   text-align:center;
   background-color: rgb(46, 71, 54);
   color: rgb(255, 255, 255);
@@ -356,6 +356,7 @@ font-size:1em;
   height:230px;
   font-family: 'GlacialIndifferenceRegular';
   letter-spacing: 2px;
+  margin-bottom:0;
 }
 
 .footbar {
