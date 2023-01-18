@@ -1,0 +1,20 @@
+.thankyou {
+
+    margin-top:200px;
+    margin-bottom:200px;
+    text-align:center;
+}
+
+.big {
+    font-size:6em;
+
+}
+
+.medium {
+    font-size:4em;
+}
+
+.small {
+    font-size:3em;
+    color:rgb(38, 131, 38);
+}

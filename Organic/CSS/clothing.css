@@ -48,9 +48,13 @@ form {
   font-size:2em;
 }
 
+#tshirt {
+  font-size:2em;
+}
+
 .foodButton {
     background-color:rgb(192, 218, 199);
-    font-size:2em;
+    font-size:3em;
     
 }  
 
@@ -64,6 +68,7 @@ button {
     margin-right:auto; 
     border:none;  
     margin-bottom:20px;
+    font-size:2em;
   }
 
   button:hover {
