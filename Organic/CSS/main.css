@@ -169,7 +169,8 @@ flex:4 2 50px;
 }
 
 .logoImage {      
-  height:100px;     
+  height:100px;  
+  width:auto;   
 }
 
 nav ul {     
@@ -276,7 +277,7 @@ padding-left:30px;
 
 .logoImage2 {      
    height:150px;
-   max-width:auto;      
+   width:auto;      
 }
       
 .ham {    
