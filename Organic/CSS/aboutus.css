@@ -140,13 +140,13 @@ h3 {
         display:none;
     }
 
-    #navoptions {
+    #navoptions2 {
         text-align:center;
         padding:20px;
         margin-bottom:60px;
     }
     
-    #navoptions a {
+    #navoptions2 a {
         padding-left:25px;
         padding-right:25px;    
         color:black;
@@ -210,9 +210,8 @@ h3 {
     
     
     
-    #open {
-        color:rgb(28, 92, 26);
-     
+    #open2 {
+        color:rgb(28, 92, 26);     
         text-align:center;
     }
     

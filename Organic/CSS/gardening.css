@@ -299,7 +299,7 @@ background-color:rgb(214, 214, 169);
     font-size:3em;
 }
 
-#container1 {
+#container12 {
     display:flex;   
     flex-wrap:wrap;
     justify-content:space-between;  
@@ -406,19 +406,19 @@ button {
 
 
 
-#signup {
+#signup2 {
     flex:1 1 50px;   
     
 }
 
 
-#aboutgarden {
+#aboutgarden2 {
     flex:2 1 50px;
     text-align:center; 
    padding-left:100px;    
 }
 
-#container2 {
+#container22 {
   text-align:center;  
   padding-bottom:40px;  
    
@@ -450,7 +450,7 @@ button {
 
 
 
-#tests{   
+#tests2 {   
   margin-top:0;
   width:100%;
   padding-top:40px;

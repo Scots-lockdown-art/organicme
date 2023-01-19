@@ -52,7 +52,7 @@ form {
   font-size:2em;
 }
 
-#tshirt {
+#tshirt, #tshirt2, #tshirt3, #tshirt4, #tshirt5, #tshirt6  {
   font-size:1em;
 }
 
@@ -92,7 +92,7 @@ button {
     display:none;
   }
 
-  #food {
+  #food2 {
     margin-top:20px;
     display:flex;
     justify-content:center;
@@ -145,7 +145,7 @@ button {
         color: rgb(66, 66, 66);
         padding: 16px 40px;    
         text-decoration: none;    
-        font-size: 1.5h; 
+        font-size: 1em; 
         font-weight:bold;     
         margin-left:auto;
         margin-right:auto; 

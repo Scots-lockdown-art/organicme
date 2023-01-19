@@ -160,7 +160,7 @@ padding-top:0px;
 .toptext {
   font-size:32px;
   color:black;
-  font-weight:strong;
+  font-weight:bold;
 }
 
 .from {  
@@ -371,10 +371,9 @@ display:inline-block;
 
 
 .centerText2 {
-text-align: center;
 display:flex; 
 font-size:3vw;   
-text-align:"center";
+text-align:center;
 font-style:italic;   
 color:rgb(255, 255, 255);
 justify-content: center;
@@ -545,7 +544,7 @@ button {
   color: rgb(66, 66, 66);
   padding: 16px 40px;    
   text-decoration: none;    
-  font-size: 1.5h; 
+  font-size: 1em; 
   font-weight:bold;     
   margin-left:auto;
   margin-right:auto; 

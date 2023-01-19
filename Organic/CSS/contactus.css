@@ -174,7 +174,7 @@ button:hover {
 
 
 
-  #input {
+  #input2 {
     margin-left:10px;    
 }
 
@@ -185,7 +185,7 @@ display:inline;
 
 
   
-  #one {    
+  #one2 {    
     margin-top:-60px;         
     display:flex;
     flex-wrap:wrap;    
@@ -197,28 +197,28 @@ padding-top:60px;
 
 }
 
-  #space {
+  #space12 {
     margin-top:120px;
   }
 
-#space2 {
+#space22 {
   margin-top:80px;
 }
 
 
-#contactDetails {
+#contactDetails2 {
    flex: 1 1 50px; 
     margin-left:30px;
     min-width:700px;   
    
 }
 
-#address {
+#address2 {
     text-align:center;
    
 }
 
-#map {   
+#map2 {   
     height:800px;     
    min-width:400px;
     flex: 1 1 50px;
@@ -238,7 +238,7 @@ h3 {
     letter-spacing:1px;
 }
 
-#contact {    
+#contact2 {    
     height:800px;    
     min-width:400px;
     flex: 1 1 50px;  
@@ -312,7 +312,7 @@ form {
     border-radius: 4px;   
   }
 
-  #message {
+  #message2 {
    width:100%;
    margin-left:-25px;
    resize:none;   
