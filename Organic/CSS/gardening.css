@@ -21,6 +21,12 @@ h3 {
   font-size:2em;
 }
 
+h5 {
+  font-size:3em;
+  color:beige;
+  text-align:center;
+  }
+
 #container1 {
   display:flex;   
   flex-wrap:wrap;
@@ -138,7 +144,11 @@ button {
   margin-left:auto;
   margin-right:auto;
   font-size:2.5em;
-  line-height:1.4;  
+  line-height:1.4; 
+  border:1px solid white;
+  background: rgba(221, 221, 221, 0.247); 
+  color:white;
+  border-radius:5px;
 }
 
 
@@ -149,8 +159,7 @@ button {
   width:100%;
   padding-top:40px;
   padding-bottom:80px;
-    background-color:rgb(183, 204, 183);  
- 
+    background-image:url("../IMG/testback2.jpg");
   }
 
  #container2 {
@@ -444,6 +453,10 @@ button {
     font-size:1.5em;
     line-height:1.4;
     color:rgb(43, 43, 43);
+    border:1px solid white;
+    background: rgba(221, 221, 221, 0.247); 
+    color:white;
+    border-radius:5px;
     
 }
 
@@ -455,7 +468,8 @@ button {
   width:100%;
   padding-top:40px;
   padding-bottom:25px;
-    background-color:rgb(183, 204, 183);  
+   
+  background-image:url("../IMG/testback2.jpg");
  
   }
 
