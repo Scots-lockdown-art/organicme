@@ -145,10 +145,9 @@ button {
   margin-right:auto;
   font-size:2.5em;
   line-height:1.4; 
-  border:1px solid white;
-  background: rgba(221, 221, 221, 0.247); 
   color:white;
-  border-radius:5px;
+
+
 }
 
 
@@ -160,6 +159,7 @@ button {
   padding-top:40px;
   padding-bottom:80px;
     background-image:url("../IMG/testback2.jpg");
+    background-attachment: fixed;
   }
 
  #container2 {
